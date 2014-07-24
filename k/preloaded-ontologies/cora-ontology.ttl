@@ -1,0 +1,116 @@
+@prefix cora: <http://karma.isi.edu/cora/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://karma.isi.edu/cora/> rdf:type owl:Ontology .
+
+
+#########################################################
+#
+# Classes
+#
+#########################################################
+
+cora:Person rdf:type owl:Class ;
+    rdfs:comment "Represents a Person." 
+    .
+
+cora:Paper rdf:type owl:Class ;
+	rdfs:comment "Represents a paper."
+	.
+
+
+#########################################################
+#
+# Object Properties
+#
+#########################################################
+
+cora:author rdf:type owl:ObjectProperty ; 
+	rdfs:domain cora:Paper ; 
+	rdfs:range cora:Person ;
+	rdfs:comment "Specifies the authors of a paper." 
+	.
+
+#########################################################
+#
+# Data Properties
+#
+#########################################################
+
+cora:answerKey rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "The ground truth of the papers that should be clustered together." 
+	.
+
+cora:authorNames rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "The names of the authors as provided in the original data." 
+	.
+
+cora:volume rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "The volume information for the paper." 
+	.
+
+cora:title rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Paper title." 
+	.
+
+cora:affiliation rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Affiliation information, not clear which author it is associated with." 
+	.
+
+cora:venue rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Journal or conference where the paper was published." 
+	.
+
+cora:address rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Address associated with the paper, probably the location of the conference." 
+	.
+
+cora:publisher rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Publishers of the paper" 
+	.
+
+cora:publicationYear rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Year when the paper was publsihed." 
+	.
+
+cora:publicationMonth rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Month when the paper was publsihed." 
+	.
+
+cora:pages rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "The pages where the paper appears in a larger publication." 
+	.
+
+cora:volumeEditors rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "The editors of the volume where the paper appears." 
+	.
+
+cora:notes rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Paper ;
+	rdfs:comment "Notes asociated with a paper." 
+	.
+
+
+
+cora:personName rdf:type owl:DatatypeProperty ; 
+	rdfs:domain cora:Person ;
+	rdfs:comment "The name of a perspn." 
+	.
+
+
+

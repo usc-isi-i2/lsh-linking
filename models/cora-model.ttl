@@ -1,0 +1,287 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cora: <http://karma.isi.edu/cora/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node18tiqjtnhx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "cora-with-headings.txt" ;
+	km-dev:modelPublicationTime "1406159943409"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"year\"}],[{\"columnName\":\"authors\"}],[{\"columnName\":\"pages\"}],[{\"columnName\":\"volume\"}],[{\"columnName\":\"editor\"}],[{\"columnName\":\"title\"}],[{\"columnName\":\"affiliation\"}],[{\"columnName\":\"author_list\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"venue\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"key\"}],[{\"columnName\":\"publishers\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"year\"}],[{\"columnName\":\"pages\"}],[{\"columnName\":\"editor\"}],[{\"columnName\":\"author_list\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"venue\"}],[{\"columnName\":\"key\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"publishers\"}],[{\"columnName\":\"authors\"}],[{\"columnName\":\"volume\"}],[{\"columnName\":\"title\"}],[{\"columnName\":\"affiliation\"}],[{\"columnName\":\"author_list\"}]]" ;
+	km-dev:hasModelLabel "cora" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory "[{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":false,\"graphLabel\":\"cora\",\"hasBaseURI\":false},\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":\"[]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"author_list\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return getValue(\\\"authors\\\").replace(\\\",\\\", \\\";\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"authors\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"authors\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"empty\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"authors\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"author_list\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"author_list\"}],\"type\":\"hNodeId\"},{\"name\":\"delimiter\",\"value\":\";\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SplitByCommaCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"key\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/answerKey\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1 (add)\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1 (add)\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"key\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"key\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"key\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"key\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"authors\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/authorNames\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"authors\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"authors\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"authors\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"authors\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"author_list\"},{\"columnName\":\"Values\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/personName\",\"isPrimary\":true,\"DomainLabel\":\"cora:Person1 (add)\",\"DomainId\":\"http://karma.isi.edu/cora/Person1 (add)\",\"DomainUri\":\"http://karma.isi.edu/cora/Person\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"author_list\"},{\"columnName\":\"Values\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"author_list\"},{\"columnName\":\"Values\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"author_list\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"author_list\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"volume\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/volume\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"volume\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"volume\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"volume\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"volume\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"title\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/title\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"title\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"title\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"title\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"title\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"affiliation\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/affiliation\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"affiliation\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"affiliation\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"affiliation\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"affiliation\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"venue\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/venue\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"venue\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"venue\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"venue\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"venue\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"address\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/address\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"address\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"address\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"publishers\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/publisher\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"publishers\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"publishers\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"publishers\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"publishers\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"year\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/publicationYear\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"year\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"year\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"year\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"year\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"pages\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/pages\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"pages\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"pages\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"pages\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"pages\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"editor\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://karma.isi.edu/cora/volumeEditors\",\"isPrimary\":true,\"DomainLabel\":\"cora:Paper1\",\"DomainId\":\"http://karma.isi.edu/cora/Paper1\",\"DomainUri\":\"http://karma.isi.edu/cora/Paper\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[{\"value\":[{\"columnName\":\"editor\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[{\"value\":[{\"columnName\":\"editor\"}]}],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"editor\\\"}]}]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[{\\\"value\\\":[{\\\"columnName\\\":\\\"editor\\\"}]}]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":false,\"graphLabel\":\"cora\",\"hasBaseURI\":false},\"type\":\"other\"},{\"name\":\"inputColumns\",\"value\":[],\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":[],\"type\":\"hNodeIdList\"},{\"name\":\"inputColumns\",\"value\":\"[]\",\"type\":\"hNodeIdList\"},{\"name\":\"outputColumns\",\"value\":\"[]\",\"type\":\"hNodeIdList\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"}]" .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 a rr:TriplesMap .
+
+_:node18tiqjtnhx1 km-dev:hasTriplesMap km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx2 rr:tableName "cora-with-headings.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasLogicalTable _:node18tiqjtnhx2 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:logicalTable _:node18tiqjtnhx2 ;
+	rr:subjectMap _:node18tiqjtnhx3 .
+
+_:node18tiqjtnhx1 km-dev:hasSubjectMap _:node18tiqjtnhx3 .
+
+_:node18tiqjtnhx3 km-dev:isPartOfMapping _:node18tiqjtnhx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://karma.isi.edu/cora/Paper1" ;
+	rr:class cora:Paper ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "cora:Paper1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_f00939a9-7fa2-4dc3-9a18-e805e50774fa rr:predicate cora:address .
+
+_:node18tiqjtnhx4 rr:column "address" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx4 .
+
+km-dev:PredicateObjectMap_f00939a9-7fa2-4dc3-9a18-e805e50774fa rr:objectMap _:node18tiqjtnhx4 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_f00939a9-7fa2-4dc3-9a18-e805e50774fa .
+
+km-dev:PredicateObjectMap_f00939a9-7fa2-4dc3-9a18-e805e50774fa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f00939a9-7fa2-4dc3-9a18-e805e50774fa .
+
+km-dev:PredicateObjectMap_91f0263f-ea73-434c-8265-7d8f06389b95 rr:predicate cora:affiliation .
+
+_:node18tiqjtnhx5 rr:column "affiliation" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx5 .
+
+km-dev:PredicateObjectMap_91f0263f-ea73-434c-8265-7d8f06389b95 rr:objectMap _:node18tiqjtnhx5 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_91f0263f-ea73-434c-8265-7d8f06389b95 .
+
+km-dev:PredicateObjectMap_91f0263f-ea73-434c-8265-7d8f06389b95 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_91f0263f-ea73-434c-8265-7d8f06389b95 .
+
+km-dev:PredicateObjectMap_842f514b-75f4-4d1b-ad3e-2688a17e209b rr:predicate cora:answerKey .
+
+_:node18tiqjtnhx6 rr:column "key" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx6 .
+
+km-dev:PredicateObjectMap_842f514b-75f4-4d1b-ad3e-2688a17e209b rr:objectMap _:node18tiqjtnhx6 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_842f514b-75f4-4d1b-ad3e-2688a17e209b .
+
+km-dev:PredicateObjectMap_842f514b-75f4-4d1b-ad3e-2688a17e209b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_842f514b-75f4-4d1b-ad3e-2688a17e209b .
+
+km-dev:PredicateObjectMap_285ab903-2f85-4d16-822c-4fe0b1f6103c rr:predicate cora:authorNames .
+
+_:node18tiqjtnhx7 rr:column "authors" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx7 .
+
+km-dev:PredicateObjectMap_285ab903-2f85-4d16-822c-4fe0b1f6103c rr:objectMap _:node18tiqjtnhx7 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_285ab903-2f85-4d16-822c-4fe0b1f6103c .
+
+km-dev:PredicateObjectMap_285ab903-2f85-4d16-822c-4fe0b1f6103c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_285ab903-2f85-4d16-822c-4fe0b1f6103c .
+
+km-dev:PredicateObjectMap_00717f60-fee3-4ceb-8150-c204fe5ebdbd rr:predicate cora:pages .
+
+_:node18tiqjtnhx8 rr:column "pages" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx8 .
+
+km-dev:PredicateObjectMap_00717f60-fee3-4ceb-8150-c204fe5ebdbd rr:objectMap _:node18tiqjtnhx8 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_00717f60-fee3-4ceb-8150-c204fe5ebdbd .
+
+km-dev:PredicateObjectMap_00717f60-fee3-4ceb-8150-c204fe5ebdbd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_00717f60-fee3-4ceb-8150-c204fe5ebdbd .
+
+km-dev:PredicateObjectMap_3874829a-ea00-4e70-aaae-a369e6385848 rr:predicate cora:publicationYear .
+
+_:node18tiqjtnhx9 rr:column "year" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx9 .
+
+km-dev:PredicateObjectMap_3874829a-ea00-4e70-aaae-a369e6385848 rr:objectMap _:node18tiqjtnhx9 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_3874829a-ea00-4e70-aaae-a369e6385848 .
+
+km-dev:PredicateObjectMap_3874829a-ea00-4e70-aaae-a369e6385848 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3874829a-ea00-4e70-aaae-a369e6385848 .
+
+km-dev:PredicateObjectMap_d0214225-9c49-488c-ab37-2e6b34c11e17 rr:predicate cora:publisher .
+
+_:node18tiqjtnhx10 rr:column "publishers" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx10 .
+
+km-dev:PredicateObjectMap_d0214225-9c49-488c-ab37-2e6b34c11e17 rr:objectMap _:node18tiqjtnhx10 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_d0214225-9c49-488c-ab37-2e6b34c11e17 .
+
+km-dev:PredicateObjectMap_d0214225-9c49-488c-ab37-2e6b34c11e17 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d0214225-9c49-488c-ab37-2e6b34c11e17 .
+
+km-dev:PredicateObjectMap_e966e8c3-5555-4706-9a9b-7886a4286f1f rr:predicate cora:source .
+
+km-dev:RefObjectMap_97474150-d66b-425d-b63c-f418cdc30473 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_25fd4162-51f8-43e0-9207-bfc29937a4db ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap km-dev:RefObjectMap_97474150-d66b-425d-b63c-f418cdc30473 .
+
+km-dev:PredicateObjectMap_e966e8c3-5555-4706-9a9b-7886a4286f1f rr:objectMap km-dev:RefObjectMap_97474150-d66b-425d-b63c-f418cdc30473 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_e966e8c3-5555-4706-9a9b-7886a4286f1f .
+
+km-dev:PredicateObjectMap_e966e8c3-5555-4706-9a9b-7886a4286f1f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e966e8c3-5555-4706-9a9b-7886a4286f1f .
+
+km-dev:PredicateObjectMap_2adff870-1f20-4833-b89d-bf4ab913698f rr:predicate cora:title .
+
+_:node18tiqjtnhx11 rr:column "title" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx11 .
+
+km-dev:PredicateObjectMap_2adff870-1f20-4833-b89d-bf4ab913698f rr:objectMap _:node18tiqjtnhx11 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_2adff870-1f20-4833-b89d-bf4ab913698f .
+
+km-dev:PredicateObjectMap_2adff870-1f20-4833-b89d-bf4ab913698f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2adff870-1f20-4833-b89d-bf4ab913698f .
+
+km-dev:PredicateObjectMap_2a7dcbca-ba93-4f07-a8a8-06ab43b5c847 rr:predicate cora:venue .
+
+_:node18tiqjtnhx12 rr:column "venue" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx12 .
+
+km-dev:PredicateObjectMap_2a7dcbca-ba93-4f07-a8a8-06ab43b5c847 rr:objectMap _:node18tiqjtnhx12 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_2a7dcbca-ba93-4f07-a8a8-06ab43b5c847 .
+
+km-dev:PredicateObjectMap_2a7dcbca-ba93-4f07-a8a8-06ab43b5c847 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2a7dcbca-ba93-4f07-a8a8-06ab43b5c847 .
+
+km-dev:PredicateObjectMap_0fada79b-b6c6-4ad5-986f-bb5e6ba27416 rr:predicate cora:volume .
+
+_:node18tiqjtnhx13 rr:column "volume" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx13 .
+
+km-dev:PredicateObjectMap_0fada79b-b6c6-4ad5-986f-bb5e6ba27416 rr:objectMap _:node18tiqjtnhx13 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_0fada79b-b6c6-4ad5-986f-bb5e6ba27416 .
+
+km-dev:PredicateObjectMap_0fada79b-b6c6-4ad5-986f-bb5e6ba27416 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0fada79b-b6c6-4ad5-986f-bb5e6ba27416 .
+
+km-dev:PredicateObjectMap_742bd7d1-ad31-4441-bb12-bef9877a6e06 rr:predicate cora:volumeEditors .
+
+_:node18tiqjtnhx14 rr:column "editor" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx14 .
+
+km-dev:PredicateObjectMap_742bd7d1-ad31-4441-bb12-bef9877a6e06 rr:objectMap _:node18tiqjtnhx14 .
+
+km-dev:TriplesMap_d87d68c7-b8ca-4610-9047-e00d6ebab393 rr:predicateObjectMap km-dev:PredicateObjectMap_742bd7d1-ad31-4441-bb12-bef9877a6e06 .
+
+km-dev:PredicateObjectMap_742bd7d1-ad31-4441-bb12-bef9877a6e06 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_742bd7d1-ad31-4441-bb12-bef9877a6e06 .
+
+km-dev:TriplesMap_25fd4162-51f8-43e0-9207-bfc29937a4db a rr:TriplesMap .
+
+_:node18tiqjtnhx1 km-dev:hasTriplesMap km-dev:TriplesMap_25fd4162-51f8-43e0-9207-bfc29937a4db .
+
+km-dev:TriplesMap_25fd4162-51f8-43e0-9207-bfc29937a4db km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx15 rr:tableName "cora-with-headings.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasLogicalTable _:node18tiqjtnhx15 .
+
+km-dev:TriplesMap_25fd4162-51f8-43e0-9207-bfc29937a4db rr:logicalTable _:node18tiqjtnhx15 ;
+	rr:subjectMap _:node18tiqjtnhx16 .
+
+_:node18tiqjtnhx1 km-dev:hasSubjectMap _:node18tiqjtnhx16 .
+
+_:node18tiqjtnhx16 km-dev:isPartOfMapping _:node18tiqjtnhx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://karma.isi.edu/cora/Person1" ;
+	rr:class cora:Person ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "cora:Person1" .
+
+km-dev:PredicateObjectMap_69995036-0aaf-4706-8692-5f1093fc034e rr:predicate cora:personName .
+
+_:node18tiqjtnhx17 rr:column "[\"author_list\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasObjectMap _:node18tiqjtnhx17 .
+
+km-dev:PredicateObjectMap_69995036-0aaf-4706-8692-5f1093fc034e rr:objectMap _:node18tiqjtnhx17 .
+
+km-dev:TriplesMap_25fd4162-51f8-43e0-9207-bfc29937a4db rr:predicateObjectMap km-dev:PredicateObjectMap_69995036-0aaf-4706-8692-5f1093fc034e .
+
+km-dev:PredicateObjectMap_69995036-0aaf-4706-8692-5f1093fc034e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node18tiqjtnhx1 .
+
+_:node18tiqjtnhx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_69995036-0aaf-4706-8692-5f1093fc034e .
