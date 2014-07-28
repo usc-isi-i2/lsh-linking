@@ -1,0 +1,1294 @@
+<a. blum> <m. furst> <m. j. kearns> <richard j. lipton.> 
+<avrim blum> <merrick furst> <michael kearns> <richard j. lipton.> 
+<avrim blum> <merrick furst> <michael kearns> <richard j. lipton.> 
+<a. blum> <m. furst> <m. kearns> <r. lipton.> 
+<a.blum> <m.furst> <j.jackson> <m.kearns> <y.mansour> <s.rudich> 
+<a.blum> <m.furst> <j.jackson> <m.kearns> <y.mansour> <s.rudich> 
+<blum a> <furst m> <jackson j> <kearns m> <mansour y> <rudich s.> 
+<a. blum> <m. furst> <j. jackson> <m. kearns> <y. mansour> <s. rudich.> 
+<avrim blum> <merrick furst> <jeffrey jackson> <michael kearns> <yishay mansour> <steven rudich.> 
+<avrim blum> <merrick furst> <jeffery jackson> <michael kearns> <yishay mansour> <steven rudich.> 
+<avrim blum> <merrick furst> <jeffery jackson> <michael kearns> <yishay mansour> <steven rudich.> 
+<avrim blum> <merrick furst> <jeffery jackson> <michael kearns> <yishay mansour> <steven rudich.> 
+<a. blum> <m. furst> <j. jackson> <m. kearns> <y. mansour> <s. rudich.> 
+<a.blum> <m. furst> <j. jackson> <m. kearns> <y. mansour> <s. rudich> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. helmbold> <d. haussler> <r. schapire> <m. k. warmuth.> 
+<n.cesa-bianchi> <y.freund> <d. p.helmbold> <d.haussler> <r. e.schapire> <m. k.warmuth> 
+<n.cesa-bianchi> <y.freund> <d.helmbold> <d.haussler> 
+<n.cesa-bianchi> <y.freund> <d.helmbold> <d.haussler> <r.schapire> <m.warmuth> 
+<n.cesa-bianchi> <y. freund> <d. p. helmbold> <d. haus-sler> <r. e. schapire a nd m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d. p. helmbold> <r. e. schapire> <m. k. war-muth.> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d.p. helmbold> <r.e. schapire> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d.p. helmbold> <r.e. schapire> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <d. haus-sler> <r. e. schapire> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helm-bold> <david haussler> <robert e. schapire> <man-fred k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. helmbold> <d. haussler> <r. schapire> <m. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haus-sler> <robert e. schapire> <manfred k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. helmbold> <d. haussler> <r. schapire> <m.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <d. haussler> <r. e. schapire> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.h. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helm-bold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. helmbold> <d. haussler> <r. schapire> <m. war-muth.> 
+<n. cesa-bianchi> <y. freund> <d. helmbold> <d. haussler> <r. schapire> <m. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <d. haussler> <r. e. schapire> <m. k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <d. haussler> <r.e. schapire> <m.k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david p. helmbold> <david haussler> <robert e schapire> <manfred k warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <d. haussler> <r. e. schapire> <m. k.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <m. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <m. warmuth.> 
+<n.cesa-bianchi> <y.freund> <helmbold> 
+<n.cesa-bianchi> <y.freund> <d. p.helmbold> <m.warmuth> 
+<n.cesa-bianchi> <y.freund> <d. p.helmbold> <m.warmuth> 
+<n.cesa-bianchi> <y. freund> <d. p. helmbold> <m. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <m. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d.p. helmbold> <m. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <m. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. helmbold> <m.k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helm-bold> <m. warmuth.> 
+<n.cesa-bianchi> <y.freund> <d.haussler> <d. p.helmbold> <r. e.schapire> <m. k.warmuth> 
+<n.cesa-bianchi> <y.freund> <d.haussler> <d. p.helmbold> <r. e.schapire> <m. k.warmuth> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d. p. helmbold> <r. e. schapire> <m. k. warmuth> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <d. haussler> <r. e. schapire> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d. p. helmbold> <r. e. schapire> <m. k. warmuth> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d. p. helmbold> <r. e. schapire> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <d. haussler> <r. e. schapire> <m. k. war-muth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <d. haussler> <r. e. schapire> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <m. k. warmuth> 
+<n. cesa-bianchi> <y. freund> <d. p. helmbold> <m. k. warmuth.> 
+<n. cesa-bianchi> <y. freund> 
+<n.cesa-bianchi> <y.freund> <d.haussler> <d. p.helmbold> <r. e.schapire> <m. k.warmuth> 
+<nicolo cesa-bianchi> <yoav freund> <david haussler> <david p. helmbold> <robert e. schapire> <manfred k. warmuth.> 
+<nicolo cesa-bianchi> <yoav freund> <david haussler> <david p. helmbold> <robert e. schapire> <manfred k. warmuth.> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d. p. helmbold> <r. e. schapire> <m. k. warmuth> 
+<n. cesa-bianchi> <y. freund> <d. haussler> <d. p. helmbold> <r. e. schapire> <m. k. warmuth> 
+<william w. cohen> <rob schapire> <yoram singer.> 
+<william w. cohen> <robert e. schapire> <yoram singer.> 
+<william w. cohen> <robert e. schapire> <yoram singer.> 
+<w. w. cohen> <r. e. shapire> <y. singer.> 
+<t. g. dietterich> <m. kearns> <y. mansour.> 
+<t. g.dietterich> <m.kearns> <y.mansour> 
+<t.dietterich> <m.kearns> <y.mansour> 
+<t.dietterich> <m.kearns> <y.mansour> 
+<t.dietterich> <m. kearns> <y.> 
+<t.dietterich> <m. kearns> <y.> 
+<t. dietterich> <m. kearns> <y. mansour.> 
+<tom dietterich> <michael kearns> <yishay mansour.> 
+<t. dietterich> <m. kearns> <y. mansour.> 
+<t. dietterich> <m. kearns> <y. mansour.> 
+<h. drucker> <r. schapire> <p. simard.> 
+<h. drucker> <r. schapire> <p. simard.> 
+<h.drucker> <r.schapire> <p.simard> 
+<h.drucker> <r.schapire> <p.simard> 
+<h.drucker> <r.schapire> <p.simard> 
+<h.drucker> <r.schapire> <p.simard> 
+<r> <p> <hart,> 
+<h.drucker> <r.schapire> <p.simard> 
+<h.drucker> <r.schapire> <r.simard> 
+<drucker, harris> <schapire, robert> <simard,> 
+<h.drucker> <r.schapire> <p.simard> 
+<drucker> <schapire> <simard> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<h. drucker> <r. schapire> <p. simard> 
+<h.drucker> <r.schapire> <p.simard> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<harris drucker> <robert e. schapire> <ptrice simard.> 
+<h. drucker> <r. schapire> <p. simard.> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<h.drucker> <r. schapire> <p.> 
+<h.drucker> <r.schapire> <p.simard> 
+<h.drucker> <r. e.schapire> <p.simard> 
+<h.drucker> <r.schapire> <p.simard> 
+<h.drucker> <r.schapire> <p.simard> 
+<drucker, harris> <schapire, robert> <simard,> 
+<h. drucker> <r. schapire> <p. simard.> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<h. drucker> <r. schapire> <p. simard> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<h. drucker> <r. schapire> <p. simard.> 
+<harris drucker> <robert schapire> <patrice simard.> 
+<h. druker> <r. schapire> <p. simard> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l.valiant> 
+<ehrenfeucht, a.> <haussler, d.> <kearns, m.> <l.g.valiant,> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. g. valiant> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l.valiant> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns. l.g. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l.g. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l.g. valiant> 
+<a.ehrenfeucht,  d.haussler, kearns m> <l.g.valiant,> 
+<a.ehrenfeucht> <d.haussler> <m. j.kearns> <l.valiant> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l. g.valiant> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l.g.valiant> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l.valiant> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l.valiant> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l.valiant> 
+<ehrenfeucht, rzej> <haussler, david> <kearns, michael> <valiant,> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l.g. valiant.> 
+<andrzej ehrenfeucht> <david haussler> <michael kearns> <leslie valiant.> 
+<andrzej ehrenfeucht> <david haussler> <michael kearns> <leslie valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l.g. valiant.> 
+<a.ehrenfeucht> <d.haussler> <m.kearns> <l.valiant> 
+<andrzej ehrenfeucht> <david haussler> <michael kearns> <leslie valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns. l.g. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<andrzej ehrenfeucht> <david haussler> <michael kearns> <leslie valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. j. kearns> <l. g. valiant.> 
+<andrzej ehrenfeucht> <david haussler> <michael kearns> <leslie valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l.g. valiant.> 
+<andrzej ehrenfeucht> <david haussler> <michael kearns> <leslie valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. j. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns. l.g. valiant.> 
+<andrzej ehrenfeucht> <david haussler> <michael kearns> <leslie valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l.g. valiant.> 
+<a. ehrenfeucht> <d. haussler> <m. kearns> <l.g. valiant.> 
+<m. feder> <y. freund> <y. mansour.> 
+<m. feder> <y. freund> <y. mansour.> 
+<m. feder> <yoav freund> <yishay mansour> 
+<m. feder> <y. freund> <y. mansour.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund.> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y. freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<y. freund.> 
+<yoav freund.> 
+<y.freund> 
+<y.freund> 
+<y. freund.> 
+<y. freund.> 
+<y. freund> <h. s. seung> <e. shamir> <n. tishby.> 
+<yoav freund> <h. sebastian seung> <eli shamir> <naftali tishby.> 
+<freund y> <seung h.s> <shamir e.> <tishby n.> 
+<y.freund> <h. s.seung> <e.shamir> <n.tishby> 
+<y.freund> <h.seung> <e.shamir> <n.tishby> 
+<y.freund> <h.seung> <e.shamir> <n.tishby> 
+<freund, y.> <seung, h.s.> <shamir, e.> <n.tishby,> 
+<y. freund> <h. s. seung> <e. shamir> <n. tishby.> 
+<y. freund> <h. s. seung> <e. shamir> <n. tishby.> 
+<y. freund> <h.s. seung> <e. shamir> <n. tishby.> 
+<y. freund> <h. s. seung> <e. shamir> <n. tishby.> 
+<y. freund> <h.s. seung> <e shamir> <n. tishby.> 
+<y. freund> <h.s. seung> <e. shamir> <n. tishby.> 
+<yoav freund> <h. sebastian seung> <eli shamir> <naftali tishby> 
+<yoav freund.> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<y. freund.> 
+<yoav freund.> 
+<y.freund> 
+<y. freund.> 
+<y. freund.> 
+<y.freund> <d.haussler> 
+<y. freund> <d. haussler.> 
+<freund> <y> <haussler> 
+<y. freund> <d. haussler.> 
+<y.freund> <d.haussler> 
+<y.freund> <d.haussler> 
+<y. freund> <d. haussler.> 
+<y. freund> <m. j. kearns> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<yoav freund> <michael kearns> <dana ron> <ronitt rubinfeld> <robert schapire> <linda sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<yoav freund> <michael kearns> <dana ron> <ronitt rubinfeld> <robert schapire> <linda sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<yoav freund> <michael j. kearns> <dana ron> <ronitt rubinfeld> <robert e. schapire> <linda sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie> 
+<yoav freund> <michael kearns> <dana ron> <ronitt rubinfeld> <robert schapire> <linda sellie.> 
+<yoav freund> <michael kearns> <dana ron> <ronitt rubenfeld> <robert schapire> <linda sellie.> 
+<y. freund> <m. j. kearns> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<yoav freund> <michael kearns> <dana ron> <ronitt rubinfeld> <robert schapire> <linda sellie.> 
+<y. freund> <m. kearns> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<freund, y.> <kearns, m. j.> <ron, d.> <rubinfeld, r.> <schapire, r. e.> <l.sellie,> 
+<yoav freund.> 
+<y.freund> 
+<y.freund> 
+<yoav freund.> 
+<yoav freund> <h. sebastian seung> <eli shamir> <naftali tishby.> 
+<y. freund> <h.s seung> <e. shamir> <n. tishby.> 
+<y. freund.> 
+<y. freund.> 
+<yoav freund.> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<y.freund> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<yoav freund.> 
+<y.freund> 
+<y. freund> <r. e. schapire.> 
+<y. freund> <r. e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r.shapire> 
+<y.freund> <r.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r. e.schapire> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<r.e.schapire> <y. freund> 
+<y. freund> <r.e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y.freund> <r. e.schapire> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r. e.schapire> 
+<y. freund> <d. ron.> 
+<y. freund> <d. ron.> 
+<y. freund> <d. ron.> 
+<y. freund> <d. ron.> 
+<y. freund> <d. ron.> 
+<y.freud> <m.kearns> <mansour> <y.  d.ron> <r.rubinfeld> <r. e.shapire> 
+<y. freund> <m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. schapire.> 
+<yoav freund> <michael j. kearns> <yishay mansour> <dana ron> <ronitt rubinfeld> <robert e. schapire.> 
+<y. freund> <m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. schapire.> 
+<y. freund> <m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire.> 
+<y.freund> <m. kearns et al.> 
+<y. freund> <m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire.> 
+<y. freund.> 
+<y. freund> 
+<y. freund> 
+<yoav freund.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r.e. schapire.> 
+<y. freund> <r. schapire> 
+<y. freund> <r. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<freund y> <schapire r.e.> 
+<v.freund> <r. e.schapire> 
+<y.freund> <r.e.> 
+<y.freund> <r.e.> 
+<y.freund> <r.schapire> 
+<y.freund> <r.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r.> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r.schapire> 
+<y.freund> <r.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r.schapire> 
+<y.freund> <r.schapire> 
+<y.freund> <r. e.schapire> 
+<freund> <yoav> <schapire> <robert e.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r. e.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r. e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r.e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y.freund> <r. e.schapire> 
+<y. freund> <r. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<freund y> <schapire r.e.> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r.e.schapire> 
+<yoav freund> <robert e. schapire.> 
+<y.freund> <r.e.schapire> 
+<y.freund> <r. e.schapire> 
+<y. freund> <r. schapire.> 
+<y.freund> <r. e.schapire> 
+<y.freund> <r.schapire> 
+<y.freund> <r. e.schapire> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r.e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r.e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y. freund> <r. schapire.> 
+<y. freund> <r.e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<yoav freund> <robert e. schapire.> 
+<y.freund> <r. e.schapire> <y.singer> <m. k.warmuth> 
+<yoav freund> <robert e. schapire> <yoram singer> <man-fred k. warmuth.> 
+<yoav freund> <robert e. schapire> <yoram singer> <manfred k. warmuth.> 
+<yoav freund> <robert e. schapire> <yoram singer> <manfred k. warmuth.> 
+<yoav freund> <robert e. schapire> <yoram singer> <manfred k. warmuth.> 
+<y.freund> <h. s.seung> <e.shamir> <n.tishby> 
+<freund, y.> <seung, h.> <shamir, e.> <n.tishby,> 
+<y. freund> <h. seung> <e. shamir> <n. tishby.> 
+<y. freund> <h. seung> <e. shamir> <n. tishby.> 
+<yoav freund> <h. sebastian seung> <eli shamir> <naftali tishby> 
+<yoav freund> <h. sebastian seung> <eli shamir> <naftali tishby> 
+<y. freund> <y. mansour.> 
+<y. freund> <y. mansour.> 
+<y. freund> <y. mansour.> 
+<goldman, s.> <rivest, r.> <r.schapire,> 
+<sally a. goldman> <ronald l. rivest> <robert e. schapire.> 
+<sally a. goldman> <ronald l. rivest> <robert e. schapire.> 
+<s.a. goldman> <r.l. rivest> <r.e. schapire.> 
+<s.goldman> <m. j.kearns> <r.schapire> 
+<s.goldman> <m.kearns> <r.schapire> 
+<s. goldman> <m. kearns> <r. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<s. goldman> <m. kearns> <r. schapire.> 
+<s. goldman> <m. kearns> <r. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<sally a. goldman> <michael j. kerns> <robert e. schapire.> 
+<sally a. goldman> <ronald l. rivest> <robert e. schapire.> 
+<sally a. goldman> <ronald l. rivest> <robert e. schapire.> 
+<s. a.goldman> <m. j.kearns> 
+<s. a. goldman> <m. j. kearns.> 
+<sally a. goldman> <michael j. kearns.> 
+<s. goldman> <m. kearns.> 
+<s. goldman> <m. kearns> 
+<s. goldman> <m. kearns.> 
+<s.a.goldman> <m.j. kearns.> 
+<s.a goldman> <m.j. kearns.> 
+<s. a. goldman> <m. j. kearns.> 
+<s.a.goldman> <m.j. kearns> 
+<sally a. goldman> <michael j. kearns.> 
+<s. goldman> <m. kearns.> 
+<sally a. goldman> <michael j. kearns.> 
+<s. a. goldman> <r. l. rivest> <r. e. schapire.> 
+<s. a. goldman> <r. l. rivest> <r. e. schapire.> 
+<s. a. goldman> <r. l. rivest> <r. e. schapire> 
+<sally a. goldman> <ronald l. rivest> <robert e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<sally a. goldman> <michael j. kearns> <robert e. schapire.> 
+<s. a. goldman> <m. j. kearns> <r. e. schapire.> 
+<s. goldman> <m. kearns> <r. schapire.> 
+<s. a. goldman> <m. j. kearns.> 
+<s. a.goldman> <m. j.kearns> 
+<s. a. goldman> <m. j. kearns.> 
+<s. a. goldman> <m. j. kearns.> 
+<s. a. goldman> <m. j. kearns.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. war-muth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. war-muth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. war-muth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. war-muth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<david haussler> <michael kearns> <nick lit-tlestone> <manfred k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. k. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. warmuth.> 
+<d. haussler> <m. kearns> <n. littlestone> <m. warmuth.> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<d.haussler> <m.kearns> <n.littlestone> <m.k.warmuth> 
+<david haussler> <michael kearns> <nick littlestone> <manfred k. warmuth.> 
+<d.haussler> <m. j.kearns> <r.schapire> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. e. schapire.> 
+<d. haussler> <m kearns> <r. shapire.> 
+<d. haussler> <m. kearns> <r. e. schapire.> 
+<david haussler> <michael kearns> <rob schapire.> 
+<d. haussler> <m. kearns> <r. e. schapire.> 
+<d. haussler> <m kearns> <r. shapire.> 
+<d. haussler> <m. kearns> <r. schapire> 
+<d. haussler> <m kearns> <r. shapire.> 
+<david haussler> <michael kearns> <robert e. schapire> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<david haussler> <michael kearns> <robert schapire.> 
+<d. haussler> <m. kearns> <r. e. schapire.> 
+<david haussler> <michael kearns> <robert schapire.> 
+<david haussler> <michael kearns> <robert schapire.> 
+<d. haussler> <m. kearns> <r.> 
+<d. haussler> <m. kearns> <r.> 
+<d.haussler> <m.kearns> <r.schapire> 
+<d.haussler> <m.kearns> <r.schapire> 
+<d.haussler> <m.kearns> <r.schapire> 
+<d. haussler> <m. kearns> <h. s. seung> <n. tishby.> 
+<d.haussler> <m. j.kearns> <h. s.seung> <n.tishby> 
+<d.haussler> <m.kearns> <h. s.seung> <n.tishby> 
+<d.haussler> <m.kearns> <h. s.seung> <n.tishby> 
+<d.haussler> <m.kearns> <h. s.seung> <n.tishby> 
+<d.haussler> <m.kearns> <h. s.seung> <n.tishby> 
+<d. haussler> <m. kearns> <h. s. seung> <n. tishby.> 
+<d. haussler> <m. kearns> <h. s. seung> <n. tishby.> 
+<d. haussler> <m. kearns> <h.s. seung> <n. tishby.> 
+<d. haussler> <m. kearns> <h.s. seung> <n. tishby.> 
+<d. haussler> <m. kearns> <h. s. seung> <n. tishby.> 
+<d. haussler> <m. kearns> <h. s. seung> <n. tishby.> 
+<haussler d> <m. kearns, h. s. seung,  n. tishby,> 
+<haussler d> <m. kearns, h. s. seung,  n. tishby.> 
+<d. haussler> <m. kearns> <h.s. seung> <n. tishby> 
+<d. haussler> <m. kearns> <h.s. seung> <n. tishby> 
+<d. haussler> <m. kearns> <s. seung> <n tishby> 
+<d. haussler> <m. kearns> <h. s. seung> <n. tishby> 
+<d. haussler> <m. kearns> <h. s. seung> <n. tishby.> 
+<david haussler> <michael kearns> <robert e. schapire.> 
+<david haussler> <michael kearns> <robert e. schapire.> 
+<haussler, david> <kearns, michael> <schapire, robert 1994.> 
+<haussler, d.> <kearns, m.> <r.e.schapire,> 
+<david haussler> <michael kearns> <robert schapire.> 
+<d. haussler> <m. kearns> <r. e. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. e. schapire.> 
+<d. haussler> <m. kearns> <r. e. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m.  r.kearns> 
+<d. haussler> <m kearns> <r. shapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<david haussler> <michael kearns> <robert e. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <r. schapire.> 
+<d. haussler> <m. kearns> <h.s. seung> <n. tishby.> 
+<david haussler> <michael kearns> <h. sebastian seung> <naftali tishby.> 
+<d. haussler> <m. kearns> <h.s. seung> <n. tishby.> 
+<d.p. helmbold> <r.e. schapire.> 
+<david p. helmbold> <robert e. schapire.> 
+<david p. helmhold> <robert e. schapire.> 
+<david p. helmbold> <robert e. schapire.> 
+<d. p. helmbold> <r. e. schapire.> 
+<d. p. helmbold> <r. e. schapire.> 
+<david p. helmbold> <robert e. schapire> <yoram singer> <manfred k. warmuth.> 
+<d. p. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth.> 
+<d.p. helmbold> <r.e. schapire> <y. singer> 
+<d. p. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth.> 
+<d. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth.> 
+<d. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth.> 
+<d. helmbold> <r. schapire> <y. singer> <m. war muth.> 
+<d. helmbold> <r. schapire> <y. singer> <m. war-muth.> 
+<d. p.helmbold> <r. e. schapire> <y. singer> <m. k.> 
+<d. p.helmbold> <r. e.schapire> <y.singer> <m. k.warmuth> 
+<d. p.helmbold> <r. e.schapire> <y.singer> <m. k.war-muth> 
+<d. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth> 
+<d. p. helmbold> <r. e. schapire> <y. singer> <m. k. war-muth.> 
+<d. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth.> 
+<d. p.helmbold> <r. e.schapire> <y.singer> <m. k.warmuth> 
+<d. p.helmbold> <r. e.schapire> 
+<d.p. helmbold> <r.e. schapire.> 
+<d.p. helmbold> <r.e. schapire> <y. singer> <m.k. warmuth.> 
+<d. p. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth.> 
+<d. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth> 
+<d. helmbold> <r. e. schapire> <y. singer> <m. k. warmuth.> 
+<h. kautz> <m. kearns> <b. selman.> 
+<h. a.kautz> <m. j.kearns> <selman.> 
+<h.kautz> <m.kearns> <b.selman> 
+<h.kautz> <m. kearns> <b. selman.> 
+<kautz, h.> <kearns, m.> <b.selman,> 
+<h.a. kautz> <m.j. kearns> <b. selman.> 
+<kautz, henry> <kearns, michael> <selman,> 
+<h. kautz> <m. kearns> <b. selman> 
+<h. kautz> <m. kearns> <b. selman.> 
+<h. a. kautz> <m. j. kearns> <b. selman.> 
+<h. a.kautz> <m. j.kearns> <selman.> 
+<h.kautz> <m.kearns> <b.selman> 
+<h.kautz> <m.kearns> <b.selman> 
+<h.kautz> <m.kearns> <b.selman> 
+<h.kautz> <m. kearns> <b. selman.> 
+<h.kautz> <m. kearns> <b. selman.> 
+<kautz, h.> <kearns, m.> <b.selman,> 
+<h.a. kautz> <m.j. kearns> <b. selman.> 
+<henry a. kautz> <michael j. kearns> <bart selman.> 
+<kautz, henry a.> <kearns, michael j.> <selman, bart ppear.> 
+<henry a. kautz> <michael j. kearns> <bart selman> 
+<h. kautz> <m. kearns> <b. selman.> 
+<h. kautz> <m. kearns> <b. selman.> 
+<h. kautz> <m. kearns> <b. selman.> 
+<h. kautz> <m. kearns> <b. selman.> 
+<henry kautz> <michael kearns> <bart selman.> 
+<m. kearns> <m. li> <l. pitt> <l. g. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<m. j.kearns> <m.li> <l.pitt> <l.valiant> 
+<m.kearns> <m.li> <l.pitt> <l.valiant> 
+<m.kearns> <m.li> <l.pitt> <l.g.valiant> 
+<m.kearns> <m.li> <l.pitt> <l.valiant> 
+<m. kearns> <m. li> <l. pitt> <l.> 
+<m. kearns> <m. li> <l. pitt> <l.g. valiant> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<michael kearns> <ming li> <lenny pitt> <leslie g. valiant.> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<m. kearns> <m. li> <l. pitt> <l.g. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. g. valiant.> 
+<m.kearns> <m.li> <l.pitt> <l. g.valiant> 
+<m.kearns> <m.li> <l.pitt> <l.valiant> 
+<m. kearns> <m. li> <l. pitt> <l. g. valiant.> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<m. j. kearns> <m. li> <l. pitt> <l. valiant> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l.g. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l.g. valiant.> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant> 
+<m.kearns> <m. li> <l. pitt> <l. valiant> 
+<m. kearns> <m. li> <l. pitt> <l. g. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<m. kearns> <m. li> <l. pitt> <l.g. valiant.> 
+<m.kearns> <m. li> <l. pitt> <l. valiant> 
+<m. j.kearns> <m.li> <l.pitt> <l.valiant> 
+<m.kearns> <m.li> <l.pitt> <l. g.valiant> 
+<m.kearns> <m.li> <l.pitt> <l. g.valiant> 
+<m. kearns> <m. li> <l. pitt> <l. valiant.> 
+<michael kearns> <ming li> <leonard pitt> <leslie valiant.> 
+<m. kearns> <m. li> <l. pitt> <l.g. valiant.> 
+<m. j.kearns> <m.li> 
+<m. j.kearns> <m.li> 
+<m.kearns> <m.li> 
+<m. kearns> <m.> 
+<m. kearns> <m. li> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<m.kearns> <m. li> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns.> 
+<m.kearns> <l.g. valiant> 
+<m. kearns> <l.g. valiant.> 
+<michael kearns> <leslie g. valiant.> 
+<m. kearns> <l.g. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. kearns> <l. valiant.> 
+<m.kearns> <l.valiant> 
+<m. j.kearns> <l. g.valiant> 
+<m.kearns> <l. g.valiant> 
+<m.kearns> <l.valiant> 
+<m.kearns> <l. g.valiant> 
+<m.kearns> <l. g.valiant> 
+<m. kearns> <l. valiant.> 
+<m. kearns> <l. valiant.> 
+<m.kearns> <l.valiant> 
+<m. kearns> <l. valiant> 
+<m. kearns> <l. valiant> 
+<michael kearns> <leslie valiant.> 
+<m. kearns> <l. valiant.> 
+<michael kearns> <leslie g. valiant.> 
+<michael kearns> <leslie g. valiant.> 
+<m.kearns> <l. g.valiant> 
+<michael kearns> <leslie g. valiant.> 
+<michael kearns> <leslie g. valiant.> 
+<m. kearns> <l. valiant.> 
+<m. kearns> <l. valiant.> 
+<michael kearns> <leslie g. valiant.> 
+<michael kearns> <leslie valiant.> 
+<michael kearns> <leslie valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. j. kearns> <l. g. valiant.> 
+<michael kearns> <leslie g. valiant.> 
+<m.kearns> <l. valiant> 
+<m.kearns> <l.g.valiant> 
+<m. kearns> <l. valiant> 
+<m. j. kearns> <l. g. valiant.> 
+<m. j. kearns> <l. g. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. kearns> <l.g. valiant.> 
+<michael kearns> <leslie valient.> 
+<m. kearns> <l. valiant.> 
+<m. kearns> <l. pitt.> 
+<m. kearns> <l. pitt.> 
+<m. kearns> <l. pitt.> 
+<michael j. kearns.> 
+<michael j. kearns.> 
+<m. kearns.> 
+<m. j.kearns> 
+<michael j. kearns.> 
+<m.kearns> 
+<michael kearns.> 
+<michael kearns.> 
+<michael kearns.> 
+<michael kearns.> 
+<m. kearns.> 
+<m.kearns> 
+<michael j. kearns.> 
+<m.kearns> 
+<michael j. kearns.> 
+<m. j. kearns.> 
+<m.kearns> 
+<m.j. kearns.> 
+<m. kearns.> 
+<michael kearns.> 
+<michael j. kearns> 
+<kearns m. j.> 
+<j. p. kearns> <j. e. payne.> 
+<m. kearns> <r. schapire.> 
+<m.kearns> <r.schapire> 
+<m. j.kearns> <r. e.schapire> 
+<m. j.kearns> <r. e. schapire.> 
+<m. j.kearns> <r. e.schapire> 
+<m. j. kearns> <r. e. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<m. j. kearns> <r. e. schapire> 
+<michael j. kearns> <robert e. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<michael j. kearns> <robert e. schapire.> 
+<michael j. kearns> <robert e. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<m. j. kearns> <r. e. shapire.> 
+<m. kearns> <r. schapire.> 
+<m. kearns> <r. shapire.> 
+<michael j. kearns> <robert e. schapire.> 
+<michael kearns> <robert e. shapire.> 
+<michael kearns> <robert schapire.> 
+<m. j. kearns> <r. e. schapire> 
+<m. j. kearns> <r. e. schapire> 
+<michael j. kearns> <robert e. schapire.> 
+<m.kearns> 
+<m.kearns> 
+<m.kearns> 
+<m. j.kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j.kearns> <r. e.schapire> <l. m.sellie> 
+<m. j.kearns> <r. e.schapire> <l. m.sellie> 
+<m.j.kearns> <r.e.schapire> <l.m.sellie> 
+<m. kearns> <r. schapire> <l. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m.kearns> <r.schapire> <l.sellie> 
+<michael j. kearns> <robert e. schapire> <linda m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sallie> 
+<michael j. kearns> <robert e. schapire> <linda m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. kearns> <r. schapire> <l. sellie> 
+<m. kearns> <r. schapire> <l. sellie> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m.j. kearns> <r.e. schapire> <l.m. sellie> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. kearns> <e. schapire> <l. sellie> 
+<m. kearns> <r.e. schapire> <l.m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sel-lie.> 
+<m. kearns> <r.e. schapire> <l.m. sellie> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<m.kearns> <m.li> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<michael kearns> <ming li.> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<michael kearns> <ming li.> 
+<m. kearns> <m. li.> 
+<m. kearns> <m. li> 
+<michael kearns> <ming li.> 
+<m. kearns.> 
+<m.j. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<m.j. kearns.> 
+<m.kearns> 
+<m.kearns> 
+<m.kearns> 
+<m.kearns> 
+<m. j.kearns> 
+<m. kearns.> 
+<m. kearns.> 
+<m. kearns> 
+<michael kearns.> 
+<m. kearns.> 
+<michael j. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<michael kearns.> 
+<michael kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<michael kearns.> 
+<michael kearns.> 
+<m.j. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<micahel kearns.> 
+<michael j. kearns> <h. sebastian seung.> 
+<michael kearns.> 
+<m. j. kearns.> 
+<michael kearns.> 
+<michael kearns.> 
+<m. j. kearns.> 
+<m. kearns.> 
+<m. kearns> 
+<m. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<michael kearns.> 
+<michael kearns.> 
+<m.kearns> 
+<m. kearns.> 
+<michael j. kearns> <h. sebastian seung.> 
+<m. kearns> <y.mansour> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<m. kearns> <y.mansour> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<m. j.kearns> <y.mansour> <d.ron> <r.rubinfeld> <r. e.schapire> <l.sellie> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie> 
+<michael kearns> <yishay mansour> <dana ron> <ronitt rubinfeld> <robert e. schapire> <linda sellie.> 
+<michael kearns> <yishay mansour> <dana ron> <ronitt rubinfeld> <robert e. schapire> <linda sellie.> 
+<m. j. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<m. j. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<m. kearns> <y.mansour> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<m. kearns> <y.mansour> <d. ron> <r. rubinfeld> <r.e. schapire> <l. sellie.> 
+<m. j. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. ru-binfeld> <r. schapire> <l. sellie.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. e. schapire> <l. sellie.> 
+<m. j. kearns> <u. v. vazirani.> 
+<m.j. kearns> <u.v. vazirani.> 
+<m.kearns> <u.vazirani> 
+<m.kearns> <u.vazirani> 
+<m.kearns> <u.vazirani> 
+<m. j.kearns> <u. v.vazirani> 
+<m. j.kearns> <u. v.vazirani> 
+<m. j.kearns> <u. v.vazirani> 
+<m. j.kearns> <u. v.vazirani> 
+<m. j.kearns> <u. v.vazirani> 
+<m. j.kearns> <u. v.vazirani> 
+<m.kearns> <u.vazirani> 
+<m.kearns> <u.vazirani> 
+<kearns> <michael> <umesh vazirani.> 
+<m. kearns> <u. vazirani.> 
+<michael kearns> <umesh vazarani.> 
+<m. kearns> <u. vazirani.> 
+<michael j. kearns> <umesh v. vazirani.> 
+<michael j. kearns> <umesh v. vazirani.> 
+<m.j. kearns> <u.v. vazirani.> 
+<m. j. kearns> <u. v. vazirani.> 
+<m. j. kearns> <u. v. vazirani.> 
+<michael j. kearns> <umesh v. vazirani.> 
+<michael j. kearns> <umesh virkumar vazirani.> 
+<m.kearns> <u.vazirani> 
+<m. j. kearns> <u. v. vazirani.> 
+<michael j. kearns> <umesh v. vazirani.> 
+<m. kearns> <u. vazirani.> 
+<m. kearns> <u. vazirani.> 
+<m. kearns> <u. vazirani.> 
+<michael j. kearns> <umesh v. vazirani.> 
+<m.j. kearns> <u.v. vazirani.> 
+<m.j. kearns> <u.> 
+<m. j. kearns> <u. v. vazirani.> 
+<m. j. kearns> <u.v. vazirani.> 
+<m j kearns> <u v varizani.> 
+<m. j. kearns> <u. v. vazirani.> 
+<m. j. kearns> <u. v. vazirani.> 
+<m. kearns> <u. vazirani.> 
+<m. kearns> <u. vazirani.> 
+<m. j.kearns> <u. v.vazirani> 
+<m.j.kearns> <u.v.vazirani> 
+<m.kearns> <u.vazirani> 
+<m.j. kearns> <r.e. schapire.> 
+<m.j. kearns> <r.e. schapire.> 
+<m. j.kearns> <r. e.schapire> 
+<m.kearns> <r.schapire> 
+<m. j. kearns> <r. e. schapire.> 
+<m. kearns> <r. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<m. kearns> <r.e. schapire.> 
+<m. kearns> <r. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<m. j. kearns> <r. e. schapire.> 
+<m. kearns> <r. schapire.> 
+<michael j. kearns> <robert e. schapire.> 
+<m. kearns> <l. valiant.> 
+<m.kearns> <l. g.valiant> 
+<m.kearns> <l. g.valiant> 
+<m.kearns> <l.g.valiant> 
+<m. j.kearns> <l.valiant> 
+<m.j.kearns> <l.g. valiant.> 
+<m. kearns> <l.g. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. j. kearns> <l. g. valiant.> 
+<m. kearns> <l. valiant.> 
+<michael kearns> <leslie g. valiant.> 
+<m. kearns> <l. valiant.> 
+<m. kearns> <l. g. valiant.> 
+<m. kearns> <l. valiant.> 
+<m. j. kearns> <l. g. valiant.> 
+<m. kearns> <l. valiant.> 
+<m.j. kearns> <l.g. valiant.> 
+<michael kearns> <leslie valiant.> 
+<kearns> <valiant.> 
+<m. j. kearns> <l. g. valiant.> 
+<m. kearns> <l. valiant.> 
+<m. kearns> <r. schapire> <l. sellie.> 
+<m. j.kearns> <r. e.schapire> <l. m.sellie> 
+<m. j.kearns> <r. e.schapire> <l. m.sellie> 
+<m. kearns> <r. schapire> <l. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. kearns> <r. schapire> <l. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<m. j. kearns> <r. e. schapire> <l. m. sellie.> 
+<michael j. kearns> <robert e. schapire> <linda m. sellie.> 
+<m. kearns> <r. schapire> <l. sellie.> 
+<michael j. kearns> <robert e. schapire> <linda m. sellie.> 
+<michael j. kearns> <robert e. schapire> <linda m. sellie.> 
+<m.kearns> <m.li> <l.valiant> 
+<m. kearns> <m. li> <l. valiant.> 
+<m. kearns> <m. li> <l. valiant.> 
+<m. kearns> <m. li> <l. valiant.> 
+<m. kearns> <y. mansour> <d. ron> <r. rubinfeld> <r. schapire> <l. sellie.> 
+<m.kearns> <h.s.> 
+<m. kearns> <h. s.> 
+<m. kearns> <h. seung.> 
+<kearns, m.> <mansour, y.> <ng, a.> <d.ron,> 
+<m. j. kearns> <y. mansour> <a. ng> <d. ron.> 
+<michael kearns> <yishay mansour> <rew y. ng> <dana ron.> 
+<m. kearns> <y. mansour> <a. y. ng> <d. ron.> 
+<m. kearns> <y. mansour> <a. ng> <d. ron.> 
+<m. kearns> <y. mansour> <a. ng> <d. ron.> 
+<m. kearns> <y. mansour> <a. y. ng> <d. ron> 
+<m. j. kearns> <y. mansour> <a. ng> <d. ron.> 
+<m. kearns> <y. mansour> <a. y. ng> <d. ron.> 
+<m. j.kearns> <y.mansour> <a. y.ng> <d.ron> 
+<m.kearns> 
+<m.kearns> 
+<m.kearns> 
+<m. j.kearns> 
+<m. kearns.> 
+<michael kearns.> 
+<m. kearns.> 
+<m. kearns.> 
+<m. j.kearns> 
+<m. j.kearns> 
+<m.kearns> <y.> 
+<michael kearns> <yishay mansour.> 
+<michael kearns> <yishay mansour.> 
+<m. kearns> <y. mansour.> 
+<michael kearns> <yishay mansour.> 
+<m.kearns> <y.mansour> <a. y.ng> <d.ron> 
+<m.kearns> <y.mansour> <a.ng> <d.ron> 
+<m. j.kearns> <d.ron> 
+<m. j.kearns> <y.mansour> <a. y.ng> <d.ron> 
+<m. kearns> <y. mansour> <a. ng> <d. ron.> 
+<m. kearns> <y. mansour> <a. ng> <d. ron.> 
+<m. kearns> <y. mansour> <a. ng> 
+<m. kearns> <y. mansour> <a. ng.> 
+<m. kearns> <y. mansour> <a. y. ng.> 
+<m.kearns> <y.mansour> <a. y.ng> 
+<m.kearns> <d.ron> 
+<m. kearns> <d. ron.> 
+<michael kearns> <satinder singh.> 
+<m. kearns> <y. mansour> <a. ng.> 
+<d. d. lewis> <r. e. schapire> <j. p. callan> <r. papka.> 
+<d. d.lewis> <r. e.schapire> <j. p.callan> <r.papka> 
+<d.lewis> <r. e. schapire> <j. p. callan> <r. papka.> 
+<lewis, d.> <schapire, r. e.> <callan, j. p.> <r.papka,> 
+<lewis, d.> <schapire, r.> <callan, j.> <r.papka,> 
+<david lewis> <robert schapire> <james p. callan> <ron papka.> 
+<d. d.lewis> <r. e.schapire> <j. p.callan> <r.papka> 
+<d. d. lewis> <r. e. schapire> <j. p. callan> <r. papka.> 
+<david d. lewis> <robert e. schapire> <james p. callan> <ron papka.> 
+<david d. lewis> <robert e. schapire> <james p. callan> <ron papka.> 
+<d. lewis> <r. schapire> <j. callan> <r. papka> 
+<d. lewis> <r. schapire> <j. callan> <r. papka.> 
+<d. lewis> <r. schapire> <j. callan> <r. papka> 
+<david lewis> <robert schapire> <james callan> <ron papka.> 
+<d. lewis> <r. schapire> <j. callan> <r. papka.> 
+<david lewis> <robert schapire> <james callan> <ron papka.> 
+<d. lewis> <r. schapire> <j. callan> <r. papka> 
+<d. lewis> <r. e. shapire> <j. p. callan> <r. papka.> 
+<david d. lewis> <robert e. schapire> <james p. callan> <ron papka.> 
+<david d. lewis> <robert e. schapire> <james p. callan> <ron papka.> 
+<david d. lewis> <robert e. shapire> <james p. callan> <ron papka.> 
+<littlestone> <n> <schapire> <m.warmuth> 
+<r.rivest> <r.schapire> 
+<r. l.rivest> <r. e.schapire> 
+<r. l.rivest> <r. e.schapire> 
+<r.l.rivest> <r.e.schapire> 
+<r. l. rivest> <r. e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. l.rivest> <r. e.schapire> 
+<r. rivest> <r. schapire.> 
+<r. l.rivest> <r. e.schapire> 
+<r. l.rivest> <r. e.schapire> 
+<r.l.rivest> <r.e.schapire> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. rivest> <s. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. l.rivest> <r. e.schapire> 
+<r.l.rivest> <r.e.schapire> 
+<r. l. rivest> <r. e. schapire.> 
+<r. rivest> <r. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. rivest> <s. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. rivest> <r. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<rivest, ronald l> <robert e> <schapire> 
+<r. l. rivest> <r. e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. rivest> 
+<r. rivest> 
+<r. rivest> <r. schapire.> 
+<r.rivest> <r.schapire> 
+<r. l.rivest> <r. e.schapire> 
+<r. l.rivest> <r. e.schapire> 
+<r. l.rivest> <r. e.schapire> 
+<r.l.rivest> <r.e. schapire> 
+<r. rivest> <r. schapire.> 
+<r. rivest> <r. schapire.> 
+<ronald. l. rivest> <robert. e. schapire.> 
+<r. rivest> <r. schapire.> 
+<r.e. schapire r. l. rivest.> 
+<r. rivest> <r. schapire.> 
+<r.l. rivest> <r.e. schapire> 
+<ronald. l. rivest> <robert. e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. rivest> <r. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r.l. rivest> <r.e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. rivest> <r. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<rivest r> <l> <schapire r> <e> 
+<r. l. rivest> <r. e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r.e. schapire r. l. rivest.> 
+<ronald l. rivest> <robert e. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. rivest> <r. schapire.> 
+<ronald l. rivest> <robert e. schapire.> 
+<r.rivest> <r.schapire> 
+<r. l.rivest> <r. e.schapire> 
+<r. rivest> <r. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<r. rivest> <r. schapire.> 
+<r. rivest> <r. schapire.> 
+<r. l. rivest> <r. e. schapire.> 
+<robert e. schapire> <yoav freund> <peter bartlett> <wee sun lee.> 
+<robert e. schapire> <yoav freund> <peter bartlett> <wee sun lee.> 
+<r. e.schapire> 
+<r. schapire.> 
+<r. schapire.> 
+<robert e. schapire.> 
+<r. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r.schapire> 
+<r.schapire> 
+<r.schapire> 
+<r.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r. e.schapire> 
+<r.e.schapire> 
+<r.e.schapire> 
+<r.e.schapire> 
+<r.e.schapire> 
+<r.e.schapire> 
+<schapire> <robert e.> 
+<r.shapire> 
+<r. e. schapire.> 
+<r. schapire.> 
+<r.schapire> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire.> 
+<r. schapire.> 
+<robert schapire.> 
+<r. e. schapire.> 
+<r. schapire.> 
+<r. schapire.> 
+<robert e. schapire.> 
+<robert schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r.e. schapire> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire> 
+<r. schapire.> 
+<r.schapire> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r.e.schapire> 
+<r. e.shapire> 
+<r. e. schapire.> 
+<robert e. schapire> 
+<r. e. schapire.> 
+<r.schapire> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<r.schapire> 
+<r. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire.> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r.e.schapire> 
+<r.e.schapire> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire> <l. m. sellie.> 
+<r. e.schapire> <m. k.warmuth> 
+<r. e.schapire> <m. k.warmuth> 
+<robert e. schapire> <manfred k. warmuth.> 
+<robert e. schapire> <manfred k. warmuth.> 
+<r. e. schapire> <m. k. warmuth.> 
+<r. e. schapire> <m. k. warmuth.> 
+<r.e.schapire> <y. freund> 
+<r. e. schapire> <l. m. sellie.> 
+<r. e. schapire> <l. m. sellie.> 
+<r.e.schapire> 
+<schapire r.e> <freund y> <bartlett p> <lee w.s.> 
+<r. e. schapire> <y. freund> <p. bartlett> <w. s. lee.> 
+<r. e.schapire> <y.freund> <p.bartlett> <w. s.lee> 
+<r. e.schapire> <y.freund> <p.bartlett> <w. s.lee> 
+<eric bauer> <ron kohavi  d. h.wolpert> 
+<r. e.schapire> <y.freund> <p.bartlett> <w. s.lee> 
+<r.schapire> <y.freund> <p.bartlett> <w.lee> 
+<r.schapire> <y. freund> <p. bartlett> <w.> 
+<r.e.schapire> <y.freund> <p.bartlett> <lee w.s.> 
+<r.e.schapire> <y.freund> <p.bartlett> <lee> 
+<r.e.schapire> <y.freund> <p.bartlett> <w.s.lee> 
+<r.e.schapire> <y.freund> <p.bartlett> <w.s.lee> 
+<r.e.schapire> <y.  p.freund> 
+<r.shapire> <y.freund> <p.bartlett> <w.lee> 
+<r. schapire> <y. freund> <p. bartlett> <w. s. lee.> 
+<r. e.schapire> <y.freund> <p.bartlett> <w. s.lee> 
+<robert e. schapire> <yoav freund> <peter bartlett> <wee sun lee.> 
+<robert e. schapire> <yoav freund> <peter bartlett> <wee sun lee.> 
+<robert e. schapire> <yoav freund> <peter bartlett> <wee sun lee.> 
+<robert e. schapire> <yoav freund> <peter bartlett> <wee sun lee.> 
+<r.e. schapire> <y. freund> <p. bartlett> 
+<r. schapire> <y. freund> <p. bartlett> <w. lee.> 
+<r.e.schapire> <y.freund> <p.bartlett> <lee> 
+<robert e. schapire.> 
+<robert e. schapire.> 
+<r. e. schapire.> 
+<robert e. schapire.> 
+<r. e.schapire> 
+<r.schapire> <y.singer> 
+<robert e. schapire> <yoram singer.> 
+<robert e. schapire> <yoram singer.> 
+<r. e.schapire> <y.freund> <p.bartlett> <w. s.lee> 
+<robert e. schapire> <yoram singer. boostexter> 
+<robert e. schapire yoram singer.> 
+<robert e. schapire yoram singer.> 
