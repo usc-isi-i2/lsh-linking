@@ -1,0 +1,46 @@
+@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://karma.isi.edu/cora/> rdf:type owl:Ontology .
+
+
+#########################################################
+#
+# Classes
+#
+#########################################################
+
+dbpediaowl:Person rdf:type owl:Class ;
+    rdfs:comment "A Person." 
+    .
+
+
+#########################################################
+#
+# Object Properties
+#
+#########################################################
+
+
+
+#########################################################
+#
+# Data Properties
+#
+#########################################################
+
+dbpediaowl:birthDate rdf:type owl:DatatypeProperty ; 
+	rdfs:domain dbpediaowl:Person 
+	.
+
+dbpediaowl:deathDate rdf:type owl:DatatypeProperty ; 
+	rdfs:domain dbpediaowl:Person 
+	.
+
+foaf:name rdf:type owl:DatatypeProperty ; 
+	rdfs:domain dbpediaowl:Person 
+	.
