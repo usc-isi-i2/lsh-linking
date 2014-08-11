@@ -31,9 +31,32 @@ def bfs(x):
 		bfs(neighbor)
 
 
+# 3000 bring
+# 1700 return 1nd housing
+# 400 return 2nd housing (pending)
+# -1000 2nd housing
+# -600 2nd housing
+# -15 boat
+# -30 tussand
+# -80 studio
+# -10 rap
+# -15 cap
+# -10 cards
+# -45 san diego
+# -75 san diego
+# -15 san diego
+# -20 san diego
+# -65 san diego
+# -15*30 meal
+# -30 travel
+# -30 taxi
+# -10 basketball
+
+
+
 if __name__ == '__main__':
 
-	num = 89 # please change this manually
+	num = 253 # please change this manually
 	lencora = 1295
 
 	fp = open('logs/merge_log.txt')
@@ -52,8 +75,13 @@ if __name__ == '__main__':
 
 	s = 0
 	fp = open('clusters.txt', 'w+')
-	for cluster in clusters:
-		s += len(cluster)
-		fp.write(str(list(cluster)) + '\n')
+	for i in xrange(len(clusters)):
+		s += len(clusters[i])
+		tmp = list(clusters[i])
+		for j in xrange(len(tmp)):
+			if (j == len(tmp) - 1):
+				fp.write(str(tmp[j]) + '\n')
+			else:
+				fp.write(str(tmp[j]) + ' ')
 	print s
 	fp.close()

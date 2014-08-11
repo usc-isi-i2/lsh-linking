@@ -97,8 +97,8 @@ if __name__ == '__main__':
 	fp = open('cora.json')
 	coraObj = json.load(fp)
 	fp.close()
-	flist = [[0], [1], [2, 3], [4], [5]]
-	matchFuncList = [indexMatch, levDist, levDist, matchNumeric, matchNumeric]
+	flist = [[0], [1], [2, 3], [4, 5]]
+	matchFuncList = [indexMatch, levDist, levDist, matchNumeric]
 	mergeFuncList = [indexMerge, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger]
 	rlist = []
 	laut = 0

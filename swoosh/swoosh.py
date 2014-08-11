@@ -53,7 +53,8 @@ class fswoosh:
 			# feats format: a list of items [dimensions of featvalue]
 			for f in xrange(len(feats)): # keep track of new values
 				v = feats[f]
-				self.Pf[f].set_val(str(v), self.curRec)
+				if (not str(v) in self.Pf[f].keys()) or (self.Pf[f].get_val(str(v)) == None):
+					self.Pf[f].set_val(str(v), self.curRec)
 			for f in xrange(len(feats)): # any pre-occured
 				v = feats[f]
 				tmp = self.Pf[f].get_val(str(v))
@@ -118,7 +119,7 @@ class fswoosh:
 			# merge corresponding dimensions with special merge function
 			res.append(self._mergeFuncList[i](r1[i], r2[i]))
 		fp = open('logs/merge_log.txt', 'a')
-		fp.write(str(r1) + '-' + str(r2) + '\n')
+		fp.write(str(r1[0]) + '-' + str(r2[0]) + '\n')
 		fp.close()
 		return res
 
