@@ -125,18 +125,23 @@ class fswoosh:
 
 	@staticmethod
 	def levDist(v1, v2):
+		LEVTHR = 3
 		lv1 = len(v1)
 		lv2 = len(v2)
-		thr = min(lv1, lv2) / 3
 		assert (lv1 == lv2), 'error: [levDist] not compatible'
-		res = 0
+		emptyflag = True
 		for i in xrange(lv1):
-			res += lvst.distance(v1[i], v2[i])
-		if (res <= thr): # threshold
-			return True
-		else:
+			l1 = len(v1[i])
+			l2 = len(v2[i])
+			thr = max(l1, l2) / LEVTHR
+			if (l1 != 0) and (l2 != 0): # both non-empty
+				emptyflag = False
+				dis = lvst.distance(v1[i].lower(), v2[i].lower())
+				if (dis > thr):
+					return False
+		if emptyflag: # all empty
 			return False
-		return res
+		return True
 
 	@staticmethod
 	def pickLonger(v1, v2):

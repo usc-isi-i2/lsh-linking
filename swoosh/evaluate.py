@@ -53,11 +53,10 @@ def bfs(x):
 # -10 basketball
 
 
-
 if __name__ == '__main__':
 
-	num = 253 # please change this manually
-	lencora = 1295
+	num = 132 # please change this manually
+	lencora = 1295 # total number of records
 
 	fp = open('logs/merge_log.txt')
 	pairs = [line.strip().split('-') for line in fp]
