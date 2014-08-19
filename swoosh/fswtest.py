@@ -61,14 +61,13 @@ def matchFirstname(v1, v2):
 	tv2 = v2.lower()
 	if (tv1 == tv2):
 		return True
-	if (tv1[0] == tv2 + '.') or (tv2[0] == tv1 + '.'):
+	if (tv1[0] == tv2) or (tv2[0] == tv1):	
 		return True
 	return False
 
 def matchSingleName(v1, v2):
-	puntuacion = '.,'
-	m1 = v1.strip(puntuacion).split()
-	m2 = v2.strip(puntuacion).split()
+	m1 = v1.replace('.', ' '). replace(',', ' ').split()
+	m2 = v2.replace('.', ' '). replace(',', ' ').split()
 	if (len(m1) > len(m2)):
 		lungo = m1
 		corto = m2
@@ -196,6 +195,8 @@ def indexMerge(v1, v2):
 
 
 if __name__ == '__main__':
+
+	matchSingleName('f. totti', 'francesco totti')
 
 	fp = open('cora-namelist.json')
 	coraObj = json.load(fp)

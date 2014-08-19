@@ -1,3 +1,6 @@
+from evaluator import evaluator
+
+
 pairs = None
 marks = None
 clusters = None
@@ -55,7 +58,7 @@ def bfs(x):
 
 if __name__ == '__main__':
 
-	num = 132 # please change this manually
+	num = 116 # please change this manually
 	lencora = 1295 # total number of records
 
 	fp = open('logs/merge_log.txt')
@@ -73,10 +76,12 @@ if __name__ == '__main__':
 		i += 1
 
 	s = 0
+	res = []
 	fp = open('clusters.txt', 'w+')
 	for i in xrange(len(clusters)):
 		s += len(clusters[i])
 		tmp = list(clusters[i])
+		res.append(tmp)
 		for j in xrange(len(tmp)):
 			if (j == len(tmp) - 1):
 				fp.write(str(tmp[j]) + '\n')
@@ -84,3 +89,16 @@ if __name__ == '__main__':
 				fp.write(str(tmp[j]) + ' ')
 	print s
 	fp.close()
+
+	fp = open('cora-clusters.txt')
+	lines = [line.strip().split() for line in fp]
+	ans = []
+	for line in lines:
+		tmp = []
+		for j in xrange(len(line)):
+			tmp.append(int(line[j]))
+		ans.append(tmp)
+
+	ev = evaluator(1295)
+	ev.load_answer_clusters(ans)
+	ev.evaluate_clusters(res)
