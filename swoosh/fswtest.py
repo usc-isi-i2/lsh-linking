@@ -142,6 +142,32 @@ def matchTitleAuthor(v1, v2):
 	assert (len(v1) == 2) and (len(v2) == 2), 'error: [matchTitleAuthor] not compatible'
 	return levDist([v1[0]], [v2[0]]) & matchNameList(v1[1], v2[1])
 
+def matchTitlePublisher(v1, v2):
+	assert (len(v1) == 2) and (len(v2) == 2), 'error: [matchTitlePublisher] not compatible'
+	return levDist([v1[0]], [v2[0]]) & levDist([v1[1]], [v2[1]])
+
+def matchTitlePages(v1, v2):
+	assert (len(v1) == 2) and (len(v2) == 2), 'error: [matchTitlePages] not compatible'
+	return levDist([v1[0]], [v2[0]]) & matchNumeric([v1[1]], [v2[1]])
+
+def matchAuthorVenueYearMonth(v1, v2):
+	assert (len(v1) == 4) and (len(v2) == 4), 'error: [matchTitlePages] not compatible'
+	res = matchNameList(v1[0], v2[0]) & levDist([v1[1]], [v2[1]]) & matchNumeric([v1[2]], [v2[2]])
+	if (v1[3] != '') and (v2[3] != ''):
+		res &= matchNumeric([v1[3]], [v2[3]])
+	return res
+
+def matchTitlePublisherYearMonth(v1, v2):
+	assert (len(v1) == 4) and (len(v2) == 4), 'error: [matchTitlePublisherYearMonth] not compatible'
+	res = levDist([v1[0]], [v2[0]]) & levDist([v1[1]], [v2[1]]) & matchNumeric([v1[2]], [v2[2]])
+	if (v1[3] != '') and (v2[3] != ''): # month is optional, can be empty
+		res &= matchNumeric([v1[3]], [v2[3]])
+	return res
+
+def matchPublisherYearMonthPages(v1, v2):
+	assert (len(v1) == 4) and (len(v2) == 4), 'error: [matchPublisherYearMonthPages] not compatible'
+	res = levDist([v1[0]], [v2[0]]) & matchNumeric([v1[1]], [v2[1]]) & matchNumeric([v1[3]], [v2[3]]) & matchNumeric([v1[2]], [v2[2]])
+	return res
 
 def jaccardDist_Tokenized(v1, v2):
 	JACTHR = 0.5
@@ -150,11 +176,11 @@ def jaccardDist_Tokenized(v1, v2):
 	lv2 = len(v2)
 	assert (lv1 == lv2), 'error: [jaccardDist_Tokenized] not compatible'
 
+	s1 = set()
+	s2 = set()
 	for i in xrange(lv1):
-		s1 = set()
-		s2 = set()
-		t1 = v1[i].split(' \t')
-		t2 = v2[i].split(' \t')
+		t1 = v1[i].split()
+		t2 = v2[i].split()
 		for t in t1:
 			t = t.strip(',.\'"')
 			s1.add(t)
@@ -165,14 +191,41 @@ def jaccardDist_Tokenized(v1, v2):
 		u12 = s1 | s2
 		jac = (len(i12) + .0) / len(u12)
 		res &= (jac > JACTHR)
+		s1.clear()
+		s2.clear()
 	return result
+
+def jaccardDist_Shingled(v1, v2):
+	JACTHR = 0.5
+	SIZE = 3
+	res = True
+	lv1 = len(v1)
+	lv2 = len(v2)
+	assert (lv1 == lv2), 'error: [jaccardDist_Shingled] not compatible'
+	
+	s1 = set()
+	s2 = set()
+	for i in xrange(lv1):
+		for j in xrange(len(v1[i])-SIZE+1):
+			tmp = v1[j:j+SIZE]
+			s1.add(tmp)
+		for j in xrange(len(v2[i])-SIZE+1):
+			tmp = v2[j:j+SIZE]
+			s2.add(tmp)
+		i12 = s1 & s2
+		u12 = s1 | s2
+		jac = (len(i12) + .0) / len(u12)
+		res &= (jac > JACTHR)
+		s1.clear()
+		s2.clear()
+	return res
 
 def pickByContribution(v1, v2):
 	s1 = set()
 	s2 = set()
 
-	t1 = v1.split(' \t')
-	t2 = v2.split(' \t')
+	t1 = v1.split()
+	t2 = v2.split()
 	for t in t1:
 		t = t.strip(',.\'"')
 		s1.add(t)
@@ -197,42 +250,62 @@ def indexMerge(v1, v2):
 
 if __name__ == '__main__':
 
-	matchSingleName('f. totti', 'francesco totti')
-
+	# print matchSingleName('f. totti', 'francesco totti')
 	fp = open('cora-namelist.json')
 	coraObj = json.load(fp)
 	fp.close()
 
-	flist = [[0], [2, 1], [2, 3], [2, 4]]
-	matchFuncList = [indexMatch, matchTitleAuthor, levDist, matchTitleYear]
-	mergeFuncList = [indexMerge, mergeNameList, pickLonger, pickLonger, pickLonger]
+	# design feature combinations
+	# flist = [[0], [3, 1], [3, 5], [3, 7, 8, 12], [7, 8, 12, 9]]
+	# flist = [[0], [3, 1], [3, 5], [3, 7, 8, 12]]
+	# flist = [[0], [3, 1], [3, 5], [3, 7], [3, 8]]
+	flist = [[0], [3, 1], [3, 5], [3, 7], [3, 8], [3, 9]]
+	# flist = [[0], [3, 1], [3, 5], [3, 7], [3, 8], [3, 9], [1, 5, 8, 12]]
+	# flist = [[0], [3, 1], [3, 5], [3, 7], [3, 8], [7, 8, 12, 9]]
+
+	# design appropriate match funcs
+	# matchFuncList = [indexMatch, matchTitleAuthor, levDist, matchTitlePublisherYearMonth, matchPublisherYearMonthPages]
+	# matchFuncList = [indexMatch, matchTitleAuthor, levDist, matchTitlePublisherYearMonth]
+	# matchFuncList = [indexMatch, matchTitleAuthor, levDist, matchTitlePublisher, matchTitleYear]
+	matchFuncList = [indexMatch, matchTitleAuthor, levDist, matchTitlePublisher, matchTitleYear, matchTitlePages]
+	# matchFuncList = [indexMatch, matchTitleAuthor, levDist, matchTitlePublisher, matchTitleYear, matchTitlePages, matchAuthorVenueYearMonth]
+	# matchFuncList = [indexMatch, matchTitleAuthor, levDist, matchTitlePublisher, matchTitleYear, matchPublisherYearMonthPages]
+	
+	# design appropriate merge funcs
+	mergeFuncList = [indexMerge, mergeNameList, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger]
+	
 	rlist = []
-	laut = 0
-	ltit = 0
-	lven = 0
-	lyea = 0
-	lpag = 0
+	s = [0 for _ in xrange(13)]
 	for i in xrange(len(coraObj)):
 		tmp = coraObj[str(i)]
 		item = []
-		item.append(str(i))
-		item.append(tmp['author'])
-		# item.append(tmp['volume'])
-		item.append(tmp['title'])
-		# item.append(tmp['institution'])
-		item.append(tmp['venue'])
-		# item.append(tmp['address'])
-		# item.append(tmp['publisher'])
-		item.append(tmp['year'])
-		# item.append(tmp['pages'])
-		# item.append(tmp['editor'])
-		# item.append(tmp['note'])
-		# item.append(tmp['month'])
+		item.append(str(i)) #0
+		item.append(tmp['author'])  #1
+		item.append(tmp['volume']) #2
+		item.append(tmp['title']) #3
+		item.append(tmp['institution']) #4
+		item.append(tmp['venue']) #5
+		item.append(tmp['address']) #6
+		item.append(tmp['publisher']) #7
+		item.append(tmp['year']) #8
+		item.append(tmp['pages']) #9
+		item.append(tmp['editor']) #10
+		item.append(tmp['note']) #11
+		item.append(tmp['month']) #12
 		rlist.append(item)
 
+		for j in xrange(1, 13):
+			if (item[j] != ''):
+				s[j] += 1
+
+	print 'id, auth, vol, ttl, ins, ven, addr, pub, year, pag, edi, nt, mon'
+	print s
+
 	dim = len(rlist[0])
+	# f-swoosh: record dimension, record list, feature list, match func list, merge func list
 	fsw = fswoosh(dim, rlist, flist, matchFuncList, mergeFuncList)
 	result = fsw.compute()
 
-	eva = evaluate(len(result), 1295, 'clusters.txt', 'cora-clusters.txt')
+	# evaluation: num after merging, num of records, result file, correct answer file
+	eva = evaluate(len(result), len(coraObj), 'clusters.txt', 'cora-clusters.txt')
 	eva.do()
