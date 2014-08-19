@@ -7,8 +7,10 @@ class fswoosh:
 	def __init__(self, dim, setI0, fList, matchFuncList=None, mergeFuncList=None, storage_config=None):
 		self.dim = dim
 		self.setI0 = setI0
-		self.fList = fList
-		# format of fList: a list of items [features indices list]
+		self.fList = fList # format of fList: a list of items [features indices list]
+		fp = open('logs/merge_log.txt', 'w+') # clear merge log
+		fp.close()
+
 		if storage_config is None:
 			storage_config = {'dict': None}
 		self.storage_config = storage_config
@@ -27,8 +29,10 @@ class fswoosh:
 	def reconstruct(self, dim, setI0, fList, storage_config=None, matchFuncList=None, mergeFuncList=None):
 		self.dim = dim
 		self.setI0 = setI0
-		self.fList = fList
-		# format of fList: a list of items [features indices list]
+		self.fList = fList # format of fList: a list of items [features indices list]
+		fp = open('logs/merge_log.txt', 'w+') # clear merge log
+		fp.close()
+		
 		if storage_config is None:
 			storage_config = {'dict': None}
 		self.storage_config = storage_config

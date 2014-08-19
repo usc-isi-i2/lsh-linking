@@ -3,6 +3,7 @@ import Levenshtein as lvst
 import json
 import re
 import time
+from evaluate import evaluate
 
 
 def pickLonger(v1, v2):
@@ -232,5 +233,6 @@ if __name__ == '__main__':
 	dim = len(rlist[0])
 	fsw = fswoosh(dim, rlist, flist, matchFuncList, mergeFuncList)
 	result = fsw.compute()
-	print result
-	print len(result)
+
+	eva = evaluate(len(result), 1295, 'clusters.txt', 'cora-clusters.txt')
+	eva.do()
