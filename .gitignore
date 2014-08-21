@@ -4,3 +4,12 @@ k/R2RML/*
 k/SemanticTypeModels/*
 k/UserUploadedFiles/*
 k/UserPrefs/*
+
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build

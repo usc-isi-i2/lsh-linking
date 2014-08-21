@@ -118,7 +118,7 @@ class SimhashIndex(object):
         ans = set()
 
         for key in self.get_keys(simhash):
-            print key
+            #print key
             dups = self.bucket.get(key, set())
             logging.debug('key:%s', key)
             if len(dups) > 200:
