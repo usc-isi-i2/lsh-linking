@@ -13,8 +13,10 @@ def pickLonger(v1, v2):
 		return v2
 
 
-def levDist(v1, v2):
+def levDist(vv1, vv2):
 	LEVTHR = 3
+	v1 = vv1.strip(',.\'" \t\n')
+	v2 = vv2.strip(',.\'" \t\n')
 	lv1 = len(v1)
 	lv2 = len(v2)
 	assert (lv1 == lv2), 'error: [levDist] not compatible'
@@ -169,36 +171,13 @@ def matchPublisherYearMonthPages(v1, v2):
 	res = levDist([v1[0]], [v2[0]]) & matchNumeric([v1[1]], [v2[1]]) & matchNumeric([v1[3]], [v2[3]]) & matchNumeric([v1[2]], [v2[2]])
 	return res
 
-def jaccardDist_Tokenized(v1, v2):
-	JACTHR = 0.5
-	res = True
-	lv1 = len(v1)
-	lv2 = len(v2)
-	assert (lv1 == lv2), 'error: [jaccardDist_Tokenized] not compatible'
 
-	s1 = set()
-	s2 = set()
-	for i in xrange(lv1):
-		t1 = v1[i].split()
-		t2 = v2[i].split()
-		for t in t1:
-			t = t.strip(',.\'"')
-			s1.add(t)
-		for t in t2:
-			t = t.strip(',.\'"')
-			s2.add(t)
-		i12 = s1 & s2
-		u12 = s1 | s2
-		jac = (len(i12) + .0) / len(u12)
-		res &= (jac > JACTHR)
-		s1.clear()
-		s2.clear()
-	return result
-
-def jaccardDist_Shingled(v1, v2):
+def jaccardDist_Shingled(vv1, vv2):
 	JACTHR = 0.5
 	SIZE = 3
 	res = True
+	v1 = vv1.strip(',.\'" \t\n')
+	v2 = vv2.strip(',.\'" \t\n')
 	lv1 = len(v1)
 	lv2 = len(v2)
 	assert (lv1 == lv2), 'error: [jaccardDist_Shingled] not compatible'
@@ -206,12 +185,17 @@ def jaccardDist_Shingled(v1, v2):
 	s1 = set()
 	s2 = set()
 	for i in xrange(lv1):
+		if (len(v1[i]) <= SIZE) or (len(v2[i]) <= SIZE):
+			if (v1[i] != v2[i]):
+				return False
+			else:
+				continue
 		for j in xrange(len(v1[i])-SIZE+1):
-			tmp = v1[j:j+SIZE]
-			s1.add(tmp)
+			tmp1 = v1[i][j:j+SIZE]
+			s1.add(tmp1)
 		for j in xrange(len(v2[i])-SIZE+1):
-			tmp = v2[j:j+SIZE]
-			s2.add(tmp)
+			tmp2 = v2[i][j:j+SIZE]
+			s2.add(tmp2)
 		i12 = s1 & s2
 		u12 = s1 | s2
 		jac = (len(i12) + .0) / len(u12)
@@ -223,15 +207,19 @@ def jaccardDist_Shingled(v1, v2):
 def pickByContribution(v1, v2):
 	s1 = set()
 	s2 = set()
+	SIZE = 3
 
-	t1 = v1.split()
-	t2 = v2.split()
-	for t in t1:
-		t = t.strip(',.\'"')
-		s1.add(t)
-	for t in t2:
-		t = t.strip(',.\'"')
-		s2.add(t)
+	vv1 = v1.strip(',.\'" \t\n')
+	vv2 = v2.strip(',.\'" \t\n')
+	if (len(vv1) <= SIZE) or (len(vv2) <= SIZE):
+		return pickLonger(vv1, vv2)
+
+	for j in xrange(len(vv1)-SIZE+1):
+		tmp1 = vv1[j:j+SIZE]
+		s1.add(tmp1)
+	for j in xrange(len(vv2)-SIZE+1):
+		tmp2 = vv2[j:j+SIZE]
+		s1.add(tmp2)
 	s = s1 | s2
 	m1 = (len(s1) + .0) / len(s)
 	m2 = (len(s2) + .0) / len(s)
@@ -274,6 +262,9 @@ if __name__ == '__main__':
 	# design appropriate merge funcs
 	mergeFuncList = [indexMerge, mergeNameList, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger, pickLonger]
 	
+	fp = open('logs/merge_log.txt', 'w+')
+	fp.close()
+
 	rlist = []
 	s = [0 for _ in xrange(13)]
 	for i in xrange(len(coraObj)):

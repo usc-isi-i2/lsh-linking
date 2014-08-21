@@ -8,8 +8,6 @@ class fswoosh:
 		self.dim = dim
 		self.setI0 = setI0
 		self.fList = fList # format of fList: a list of items [features indices list]
-		fp = open('logs/merge_log.txt', 'w+') # clear merge log
-		fp.close()
 
 		if storage_config is None:
 			storage_config = {'dict': None}
@@ -128,8 +126,10 @@ class fswoosh:
 		return res
 
 	@staticmethod
-	def levDist(v1, v2):
+	def levDist(vv1, vv2):
 		LEVTHR = 3
+		v1 = vv1.strip(',.\'" \t\n')
+		v2 = vv2.strip(',.\'" \t\n')
 		lv1 = len(v1)
 		lv2 = len(v2)
 		assert (lv1 == lv2), 'error: [levDist] not compatible'
