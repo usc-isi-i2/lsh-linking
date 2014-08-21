@@ -165,6 +165,32 @@ class SimhashIndex(object):
             for item in v:
                 self.bucket[k].add(item)
 
+    def query_from_disk(self, path, simhash):
+        ans = set()
+
+        flag = False
+
+        for key in self.get_keys(simhash):
+            filename = key[0:2]
+            file_object = open(path+'/'+filename)
+
+            for line in file_object:
+                if line.find('<index>') != -1:
+                    if line.find(key) != -1:
+                        flag = True
+                    else:
+                        flag = False
+                elif flag:
+                    sim2, obj_id = line.replace('\n', '').split(',', 1)
+                    sim2 = Simhash(long(sim2, 16), self.f)
+                    d = simhash.distance(sim2)
+                    if d <= self.k:
+                        ans.add(obj_id)
+                else:
+                    pass
+
+        return list(ans)
+
     def __init__(self, objs=None, f=64, k=2):
         '''
         `objs` is a list of (obj_id, simhash)

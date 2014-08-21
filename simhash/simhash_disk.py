@@ -47,4 +47,3 @@ def disk_to_index(data):
 	index = SimhashIndex()
 	index.read(data)
 	return index
-		
