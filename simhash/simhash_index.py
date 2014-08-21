@@ -159,25 +159,34 @@ class SimhashIndex(object):
             if v in self.bucket.get(key, set()):
                 self.bucket[key].remove(v)
 
-    def __init__(self, objs, f=64, k=2):
+    def read(self, data):
+        for (k, v) in data.items():
+            self.bucket.setdefault(k, set())
+            for item in v:
+                self.bucket[k].add(item)
+
+    def __init__(self, objs=None, f=64, k=2):
         '''
         `objs` is a list of (obj_id, simhash)
         obj_id is a string, simhash is an instance of Simhash
         `f` is the same with the one for Simhash
         `k` is the toleranec
         '''
-        self.k = k
-        self.f = f
-        count = len(objs)
-        logging.info('Initializing %s data.', count)
+        if objs == None:
+            self.bucket = {}
+        else:
+            self.k = k
+            self.f = f
+            count = len(objs)
+            logging.info('Initializing %s data.', count)
 
-        self.bucket = {}
+            self.bucket = {}
 
-        for i, q in enumerate(objs):
-            if i % 10000 == 0 or i == count-1:
-                logging.info('%s/%s', i+1, count)
+            for i, q in enumerate(objs):
+                if i % 10000 == 0 or i == count-1:
+                    logging.info('%s/%s', i+1, count)
 
-            self.add(*q)
+                self.add(*q)
 
     @property
     def offsets(self):

@@ -57,5 +57,7 @@ def simhash_split(data, field):
 if __name__ == '__main__':
     data = process_data_json(load_data_json("cora.json"))
     simhash_split(data, 'title')
+    index = disk_to_index(read_from_disk('./data'))
 
-    #index_wiki_data('data-00000-of-00010')
+    for (k, v) in index.bucket.items():
+        print k, v
