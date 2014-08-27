@@ -7,6 +7,7 @@ import os.path
 def write_to_disk(index):
 	for (k, v) in index.bucket.items():
 		filename = 'data/'+str(k)[0:2]
+		filename = filename.replace(':', '')
 		file_object = open(filename, 'a+')
 		file_object.write('<index>'+str(k)+'</index>\n')
 		for item in v:

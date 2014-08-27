@@ -13,3 +13,7 @@ k/UserPrefs/*
 *.egg-info
 dist
 build
+
+# data:
+simhash/data
+*.csv

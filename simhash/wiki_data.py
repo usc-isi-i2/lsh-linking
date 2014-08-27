@@ -24,6 +24,7 @@ def index_wiki_data(filename, slice = 10000, field = 'MENTION'):
 			else:
 				print tot
 				count = 0
+				data_dict = {}
 				index_to_disk(data_dict, field)
 		elif data_list[0] == 'MENTION':
 			data_dict[count]['MENTION'] += data_list[1].decode('UTF-8')
