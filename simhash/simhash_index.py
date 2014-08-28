@@ -172,6 +172,7 @@ class SimhashIndex(object):
 
         for key in self.get_keys(simhash):
             filename = key[0:2]
+            filename = filename.replace(':', '')
             file_object = open(path+'/'+filename)
 
             for line in file_object:
@@ -200,6 +201,8 @@ class SimhashIndex(object):
         '''
         if objs == None:
             self.bucket = {}
+            self.k = 2
+            self.f = 64
         else:
             self.k = k
             self.f = f

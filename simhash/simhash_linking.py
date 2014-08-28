@@ -63,5 +63,8 @@ if __name__ == '__main__':
 
     #for (k, v) in index.bucket.items():
         #print k, v
-    index_saam_data('saam-people.csv')
+    #index_saam_data('saam-people.csv')
     #index_dbpedia_data('dbpedia.csv')
+    si = SimhashIndex()
+    res = si.query_from_disk('data', Simhash('Unknown photographer'))
+    print res	

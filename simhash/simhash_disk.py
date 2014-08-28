@@ -38,9 +38,9 @@ def read_from_disk(path):
  					item  = item.replace('\n', '')
  					if item.find('<index>') != -1:
  						key = item.replace('<index>', '').replace('</index>', '')
- 						data_dict[key] = []
+ 						data_dict.setdefault(key, set())
  					else:
- 						data_dict[key].append(item)
+ 						data_dict[key].add(item)
  						record += 1
  			finally:
  				file_object.close()
