@@ -1,31 +1,25 @@
 # -*- coding: utf-8 -*-  
 from simhash_disk import *
-import time
+import time, csv
 
 
 def index_saam_data(filename, slice = -1, field = 'info'):
 	time1 = time.time()
-	count = -1
-	data_list = []
+	count = 0
 	data_dict = {}
 
-	file_object = open(filename)
-
-	raw_data = file_object.readlines()
+	raw_data = csv.reader(file(filename, 'rb'))
 
 	for line in raw_data:
-		data_list = line.replace('\n', '').rsplit('","')
-		if count > -1:
-			data_dict[count] = {}
-			data_dict[count]['info'] = ''
-			for data in data_list[1:]:
-				data_dict[count]['info'] += data.replace('"', '').decode('UTF-8')
-				data_dict[count]['info'] += ' '.decode('UTF-8')
-		else:
-			pass
+		data_dict[count] = {}
+		data_dict[count]['info'] = ''
+
+		for data in line[1:2]:
+			data_dict[count]['info'] += data.lstrip().rstrip().decode('UTF-8')
 
 		count += 1
 
+	print data_dict[0]
 	index_to_disk(data_dict, field)
 	time2 = time.time()
 	print time2 - time1

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-  
 from simhash_index import Simhash, SimhashIndex
-import os
+import os, time
 import os.path
 
 
@@ -26,7 +26,10 @@ def read_from_disk(path):
 	data_dict = {}
 	key = ''
 
+	time1 = time.time()
  	for parent, dirnames, filenames in os.walk(path):
+ 		count = 0
+ 		record = 0
  		for filename in filenames:
  			file_object = open(path+'/'+filename)
  			try:
@@ -38,9 +41,15 @@ def read_from_disk(path):
  						data_dict[key] = []
  					else:
  						data_dict[key].append(item)
+ 						record += 1
  			finally:
  				file_object.close()
 
+ 			count += 1
+ 			print count, filename, record
+
+ 	time2 = time.time()
+ 	print time2 - time1
  	return data_dict
 
 

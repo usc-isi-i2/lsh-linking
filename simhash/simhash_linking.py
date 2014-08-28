@@ -2,7 +2,7 @@
 from wiki_data import *
 from saam_data import *
 from dbpedia_data import *
-import json
+import json, chardet
 
 
 def load_data(filename):
@@ -63,5 +63,5 @@ if __name__ == '__main__':
 
     #for (k, v) in index.bucket.items():
         #print k, v
-    #index_saam_data('saam-people.csv')
-    index_dbpedia_data('all-with-date.csv')
+    index_saam_data('saam-people.csv')
+    #index_dbpedia_data('dbpedia.csv')
