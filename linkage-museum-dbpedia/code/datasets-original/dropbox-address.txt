@@ -1,0 +1,3 @@
+Museum dataset and DBPedia dataset (without place information)
+https://www.dropbox.com/sh/nui8u4ny7ml3i79/AAAl881OIU8o0y-dGG2C993Ia?dl=0
+version: 2014-09-03

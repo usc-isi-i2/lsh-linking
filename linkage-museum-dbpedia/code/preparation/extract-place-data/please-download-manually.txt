@@ -1,0 +1,3 @@
+DBPedia dataset with birthplace and deathplace:
+http://downloads.dbpedia.org/3.9/en/persondata_en.nt.bz2
+version: 2014-09-03
