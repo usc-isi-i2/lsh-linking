@@ -24,7 +24,7 @@ class fswoosh:
 		self.setI = []
 		self.curRec = None
 
-	def reconstruct(self, dim, setI0, fList, storage_config=None, matchFuncList=None, mergeFuncList=None):
+	def reconstruct(self, dim, setI0, fList, matchFuncList=None, mergeFuncList=None, storage_config=None):
 		self.dim = dim
 		self.setI0 = setI0
 		self.fList = fList # format of fList: a list of items [features indices list]

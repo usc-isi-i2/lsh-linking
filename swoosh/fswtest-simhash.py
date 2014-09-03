@@ -13,13 +13,30 @@ def pickLonger(v1, v2):
 		return v2
 
 
-def levDist(vv1, vv2):
-	LEVTHR = 3
-	v1 = vv1.strip(',.\'" \t\n')
-	v2 = vv2.strip(',.\'" \t\n')
+def levDist(v1, v2):
+	LEVTHR = 2
 	lv1 = len(v1)
 	lv2 = len(v2)
 	assert (lv1 == lv2), 'error: [levDist] not compatible'
+	emptyflag = True
+	for i in xrange(lv1):
+		l1 = len(v1[i])
+		l2 = len(v2[i])
+		thr = max(l1, l2) / LEVTHR
+		if (l1 != 0) and (l2 != 0): # both non-empty
+			emptyflag = False
+			dis = lvst.distance(v1[i].lower(), v2[i].lower())
+			if (dis > thr):
+				return False
+	if emptyflag: # all empty
+		return False
+	return True
+
+def levDistPool(v1, v2):
+	LEVTHR = 4
+	lv1 = len(v1)
+	lv2 = len(v2)
+	assert (lv1 == lv2), 'error: [levDistPool] not compatible'
 	emptyflag = True
 	for i in xrange(lv1):
 		l1 = len(v1[i])
@@ -171,7 +188,6 @@ def matchPublisherYearMonthPages(v1, v2):
 	res = levDist([v1[0]], [v2[0]]) & matchNumeric([v1[1]], [v2[1]]) & matchNumeric([v1[3]], [v2[3]]) & matchNumeric([v1[2]], [v2[2]])
 	return res
 
-
 def jaccardDist_Shingled(vv1, vv2):
 	JACTHR = 0.5
 	SIZE = 3
@@ -235,10 +251,22 @@ def indexMatch(v1, v2):
 def indexMerge(v1, v2):
 	return v2
 
+# load blocking result
+def load_blocked(fname):
+	fp = open(fname)
+	lines = [line.strip().split() for line in fp]
+	res = []
+	for line in lines:
+		tmp = []
+		for x in line:
+			tmp.append(int(x))
+		res.append(tmp)
+	return res
+
 
 if __name__ == '__main__':
+	t1 = time.time()
 
-	# print matchSingleName('f. totti', 'francesco totti')
 	fp = open('cora-namelist.json')
 	coraObj = json.load(fp)
 	fp.close()
@@ -265,38 +293,41 @@ if __name__ == '__main__':
 	fp = open('logs/merge_log.txt', 'w+')
 	fp.close()
 
-	rlist = []
-	s = [0 for _ in xrange(13)]
-	for i in xrange(len(coraObj)):
-		tmp = coraObj[str(i)]
-		item = []
-		item.append(str(i)) #0
-		item.append(tmp['author'])  #1
-		item.append(tmp['volume']) #2
-		item.append(tmp['title']) #3
-		item.append(tmp['institution']) #4
-		item.append(tmp['venue']) #5
-		item.append(tmp['address']) #6
-		item.append(tmp['publisher']) #7
-		item.append(tmp['year']) #8
-		item.append(tmp['pages']) #9
-		item.append(tmp['editor']) #10
-		item.append(tmp['note']) #11
-		item.append(tmp['month']) #12
-		rlist.append(item)
-
-		for j in xrange(1, 13):
-			if (item[j] != ''):
-				s[j] += 1
-
-	print 'id, auth, vol, ttl, ins, ven, addr, pub, year, pag, edi, nt, mon'
-	print s
-
-	dim = len(rlist[0])
-	# f-swoosh: record dimension, record list, feature list, match func list, merge func list
-	fsw = fswoosh(dim, rlist, flist, matchFuncList, mergeFuncList)
-	result = fsw.compute()
-
-	# evaluation: num after merging, num of records, result file, correct answer file
+	# simhash blocking result
+	coraBuckets = load_blocked('simhash-blocked.txt')
+	
+	rpool = []
+	for buc in coraBuckets:
+		rlist = []
+		for i in xrange(len(buc)):
+			tmp = coraObj[str(buc[i])]
+			item = []
+			item.append(str(buc[i])) #0
+			item.append(tmp['author'])  #1
+			item.append(tmp['volume']) #2
+			item.append(tmp['title']) #3
+			item.append(tmp['institution']) #4
+			item.append(tmp['venue']) #5
+			item.append(tmp['address']) #6
+			item.append(tmp['publisher']) #7
+			item.append(tmp['year']) #8
+			item.append(tmp['pages']) #9
+			item.append(tmp['editor']) #10
+			item.append(tmp['note']) #11
+			item.append(tmp['month']) #12
+			rlist.append(item)
+		dim = len(rlist[0])
+		fsw = fswoosh(dim, rlist, flist, matchFuncList, mergeFuncList)
+		res = fsw.compute()
+		rpool += res
+	dim = len(rpool[0])
+	print len(rpool)
+	matchFuncList[2] = levDistPool
+	fswpool = fswoosh(dim, rpool, flist, matchFuncList, mergeFuncList)
+	result = fswpool.compute()
+	print len(result)
 	eva = evaluate(len(result), len(coraObj), 'clusters.txt', 'cora-clusters.txt')
 	eva.do()
+
+	t2 = time.time()
+	print 't2-t1: ' + str(t2-t1)
