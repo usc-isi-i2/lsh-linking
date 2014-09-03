@@ -201,8 +201,8 @@ class SimhashIndex(object):
         '''
         if objs == None:
             self.bucket = {}
-            self.k = 2
-            self.f = 64
+            self.k = k
+            self.f = f
         else:
             self.k = k
             self.f = f
@@ -214,7 +214,6 @@ class SimhashIndex(object):
             for i, q in enumerate(objs):
                 if i % 10000 == 0 or i == count-1:
                     logging.info('%s/%s', i+1, count)
-
                 self.add(*q)
 
     @property

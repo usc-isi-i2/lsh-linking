@@ -9,14 +9,16 @@ def index_dbpedia_data(filename, slice = 10000, field = 'info'):
 	tot = 0
 	data_dict = {}
 
-	raw_data = csv.reader(file(filename, 'rb'))
+	raw_data = csv.reader(file(filename, 'rb'))	
 
 	for line in raw_data:
 		data_dict[tot] = {}
 		data_dict[tot]['info'] = ''
 		try:
-			for data in line[-3:-2]:
-				data_dict[tot]['info'] += data.lstrip().rstrip().decode('UTF-8')
+			if line[-2] == '':
+				data_dict[tot]['info'] += line[-3].lstrip().rstrip().decode('UTF-8')
+			else:
+				data_dict[tot]['info'] += line[-2].lstrip().rstrip().decode('UTF-8')
 		except:
 			print tot
 		count += 1

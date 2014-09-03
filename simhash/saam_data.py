@@ -18,8 +18,6 @@ def index_saam_data(filename, slice = -1, field = 'info'):
 			data_dict[count]['info'] += data.lstrip().rstrip().decode('UTF-8')
 
 		count += 1
-
-	print data_dict[0]
 	index_to_disk(data_dict, field)
 	time2 = time.time()
 	print time2 - time1
