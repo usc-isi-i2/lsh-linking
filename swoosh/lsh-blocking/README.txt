@@ -10,6 +10,7 @@ LSH Class written by Hao.
 storage.py:
 In-memory hashtable (Redis version also available).
 From a guy on Github. I haven't sent him email yet.
+https://github.com/kayzh/LSHash/tree/master/lshash
 
 usage.py:
 Do the blocking job.
